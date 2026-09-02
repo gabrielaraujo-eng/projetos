@@ -1,0 +1,1 @@
+square(x: Integer): Integer == x * x

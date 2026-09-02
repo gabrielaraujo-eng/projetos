@@ -1,0 +1,1 @@
+:- writeln('Olá Mundo').

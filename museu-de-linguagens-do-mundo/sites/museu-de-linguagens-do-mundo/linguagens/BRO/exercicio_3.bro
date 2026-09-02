@@ -1,0 +1,1 @@
+switch (val) { case 1: break; }

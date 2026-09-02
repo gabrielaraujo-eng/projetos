@@ -1,0 +1,5 @@
+kapag x > 10
+    isulat "Maior"
+kundi
+    isulat "Menor"
+wakas

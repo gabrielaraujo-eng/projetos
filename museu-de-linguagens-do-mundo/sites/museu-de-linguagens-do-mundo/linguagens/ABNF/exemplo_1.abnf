@@ -1,0 +1,3 @@
+; Exemplo 1: Regra básica em ABNF
+greeting = "Olá, Mundo!"
+alphabet = %x41-5A / %x61-7A ; A-Z / a-z

@@ -1,0 +1,1 @@
+// Inform 7 uses rules instead of try-catch.

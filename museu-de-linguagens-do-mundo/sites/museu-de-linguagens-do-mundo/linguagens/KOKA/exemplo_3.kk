@@ -1,0 +1,1 @@
+if (x > 10) then println("Maior") else println("Menor")

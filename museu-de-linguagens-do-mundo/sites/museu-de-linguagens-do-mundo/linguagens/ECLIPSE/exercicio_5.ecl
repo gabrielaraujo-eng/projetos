@@ -1,0 +1,1 @@
+mult(A, B, C) :- C is A * B.

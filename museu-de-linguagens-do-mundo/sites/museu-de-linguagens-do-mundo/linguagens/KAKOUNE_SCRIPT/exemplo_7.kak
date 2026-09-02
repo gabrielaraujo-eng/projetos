@@ -1,0 +1,1 @@
+try %{ fail "Erro" } catch %{ echo %val{error} }

@@ -1,0 +1,1 @@
+(G-Code não tem listas nativas, usa variáveis numeradas)

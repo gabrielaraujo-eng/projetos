@@ -1,0 +1,5 @@
+#!/usr/bin/falcon
+
+var texto = "falcon language"
+print("Original: " + texto)
+print("Maiúsculas: " + texto.upper())

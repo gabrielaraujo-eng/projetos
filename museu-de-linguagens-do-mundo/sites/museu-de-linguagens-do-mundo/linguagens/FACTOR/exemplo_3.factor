@@ -1,0 +1,1 @@
+x 10 > [ "Maior" print ] [ "Menor" print ] if

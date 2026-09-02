@@ -1,0 +1,1 @@
+(let ((idade 25) (nome "Guile")) (format #t "~a tem ~d anos\n" nome idade))

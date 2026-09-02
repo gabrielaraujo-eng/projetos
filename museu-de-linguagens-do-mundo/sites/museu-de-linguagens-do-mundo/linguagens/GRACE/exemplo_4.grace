@@ -1,0 +1,1 @@
+for (0..4) do { i -> print(i) }

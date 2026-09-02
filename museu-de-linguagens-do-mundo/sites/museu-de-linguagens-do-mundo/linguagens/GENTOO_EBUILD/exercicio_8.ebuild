@@ -1,0 +1,1 @@
+echo "gentoo" | rev

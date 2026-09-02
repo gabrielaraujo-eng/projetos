@@ -1,0 +1,1 @@
+WHILE x > 0 DO x := x - 1;

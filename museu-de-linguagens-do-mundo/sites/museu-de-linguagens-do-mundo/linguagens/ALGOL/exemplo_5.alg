@@ -1,0 +1,1 @@
+INTEGER PROCEDURE square(n); INTEGER n; square := n * n;

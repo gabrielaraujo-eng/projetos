@@ -1,0 +1,1 @@
+<#if lista?seq_contains(2)>Achou</#if>

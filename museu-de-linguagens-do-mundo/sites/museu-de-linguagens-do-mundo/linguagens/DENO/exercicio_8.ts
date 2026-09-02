@@ -1,0 +1,1 @@
+console.log("deno".split("").reverse().join(""));

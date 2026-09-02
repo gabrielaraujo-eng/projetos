@@ -1,0 +1,4 @@
+graph G {
+  idade [label="25"];
+  nome [label="Graphviz"];
+}

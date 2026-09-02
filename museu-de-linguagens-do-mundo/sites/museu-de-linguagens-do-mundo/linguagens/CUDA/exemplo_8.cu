@@ -1,0 +1,1 @@
+// CUDA foca em computação numérica

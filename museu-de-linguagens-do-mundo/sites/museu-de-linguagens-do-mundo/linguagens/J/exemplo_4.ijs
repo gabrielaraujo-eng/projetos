@@ -1,0 +1,1 @@
+for_i. i. 5 do. echo i end.

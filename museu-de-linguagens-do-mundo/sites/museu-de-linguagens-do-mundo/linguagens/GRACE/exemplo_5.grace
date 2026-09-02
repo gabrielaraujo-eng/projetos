@@ -1,0 +1,1 @@
+method soma(a, b) { a + b }

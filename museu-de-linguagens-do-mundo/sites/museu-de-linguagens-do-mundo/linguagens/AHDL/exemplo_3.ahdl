@@ -1,0 +1,3 @@
+IF d == VCC THEN
+  q = d;
+END IF;

@@ -1,0 +1,1 @@
+INTEGER ARRAY a(1:10);

@@ -1,0 +1,6 @@
+#!/usr/bin/falcon
+
+var lista = [1, 2, 3, 4, 5]
+
+print("Primeiro elemento: " + lista[0])
+print("Lista completa: " + lista)

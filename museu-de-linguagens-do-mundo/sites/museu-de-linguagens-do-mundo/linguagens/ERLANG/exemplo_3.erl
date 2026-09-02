@@ -1,0 +1,1 @@
+if X > 10 -> io:format("Maior"); true -> io:format("Menor") end.

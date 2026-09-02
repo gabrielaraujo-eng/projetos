@@ -1,0 +1,3 @@
+Var idade = 25
+Var nome = "LabVIEW"
+Display nome + " tem " + idade + " anos"

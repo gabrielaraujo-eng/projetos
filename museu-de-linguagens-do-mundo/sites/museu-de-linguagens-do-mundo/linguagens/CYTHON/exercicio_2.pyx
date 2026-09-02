@@ -1,0 +1,1 @@
+cdef double d = 1.5

@@ -1,0 +1,1 @@
+Repeat Until KeyHit(1)

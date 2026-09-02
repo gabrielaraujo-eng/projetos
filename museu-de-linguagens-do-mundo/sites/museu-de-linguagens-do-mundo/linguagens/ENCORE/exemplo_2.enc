@@ -1,0 +1,3 @@
+val idade = 25
+val nome = "Encore"
+println("{} tem {} anos", nome, idade)

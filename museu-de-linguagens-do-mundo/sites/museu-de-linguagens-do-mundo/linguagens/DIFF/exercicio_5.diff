@@ -1,0 +1,5 @@
+--- a/calc.txt
++++ b/calc.txt
+@@ -1 +1 @@
+-a+b
++a*b

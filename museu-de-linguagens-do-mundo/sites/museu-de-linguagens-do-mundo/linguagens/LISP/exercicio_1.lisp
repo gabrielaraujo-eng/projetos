@@ -1,0 +1,1 @@
+(format t "Nagato09-dev~%")

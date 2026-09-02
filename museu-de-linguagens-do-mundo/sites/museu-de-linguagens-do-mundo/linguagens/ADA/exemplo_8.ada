@@ -1,0 +1,1 @@
+S : String := "Olá" & " Mundo";

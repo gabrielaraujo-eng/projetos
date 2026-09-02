@@ -1,0 +1,1 @@
+// EdgeQL não possui try-catch, erros são tratados no driver.

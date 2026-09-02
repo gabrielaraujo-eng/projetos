@@ -1,0 +1,1 @@
+if (arg0 % 2 == 0) { printf("Par\n"); }

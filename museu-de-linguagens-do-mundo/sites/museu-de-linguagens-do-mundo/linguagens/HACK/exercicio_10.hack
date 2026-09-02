@@ -1,0 +1,1 @@
+echo C\contains($lista, 2);

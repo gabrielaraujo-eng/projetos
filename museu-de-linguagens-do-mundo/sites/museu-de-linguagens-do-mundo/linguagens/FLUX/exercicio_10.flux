@@ -1,0 +1,1 @@
+contains(value: 2, set: lista)

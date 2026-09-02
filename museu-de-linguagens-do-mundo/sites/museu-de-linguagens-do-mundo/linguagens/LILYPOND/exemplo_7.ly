@@ -1,0 +1,1 @@
+% LilyPond reporta erros no log de compilação

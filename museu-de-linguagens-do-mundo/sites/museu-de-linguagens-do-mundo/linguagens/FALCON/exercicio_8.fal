@@ -1,0 +1,5 @@
+#!/usr/bin/falcon
+
+var frase = "exemplo de falcon"
+print("Original: " + frase)
+print("Primeira letra maiúscula: " + frase.capitalize())

@@ -1,0 +1,9 @@
+#!/usr/bin/falcon
+
+for i in 0..4:
+    print("Loop: " + i)
+
+var contador = 0
+while contador < 3:
+    print("Contador: " + contador)
+    contador += 1

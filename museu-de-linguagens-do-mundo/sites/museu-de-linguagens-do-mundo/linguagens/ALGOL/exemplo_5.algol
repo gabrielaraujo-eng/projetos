@@ -1,0 +1,1 @@
+integer procedure soma(a, b); integer a, b; soma := a + b;

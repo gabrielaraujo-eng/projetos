@@ -1,0 +1,1 @@
+// GAMS não tem upper nativo em versões básicas

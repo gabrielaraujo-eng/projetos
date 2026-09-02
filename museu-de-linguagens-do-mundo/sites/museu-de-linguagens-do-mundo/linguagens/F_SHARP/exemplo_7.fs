@@ -1,0 +1,4 @@
+try
+    failwith "Erro"
+with
+    | e -> printfn "%s" e.Message

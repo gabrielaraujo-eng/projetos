@@ -1,0 +1,1 @@
+const f: number = 3.14;

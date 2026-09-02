@@ -1,0 +1,1 @@
+(if (= 0 (% n 2)) (message "Par"))

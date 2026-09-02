@@ -1,0 +1,1 @@
+math(EXPR res "10 + 5")

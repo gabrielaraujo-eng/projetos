@@ -1,0 +1,1 @@
+// LLVM usa metadados para debug e erro

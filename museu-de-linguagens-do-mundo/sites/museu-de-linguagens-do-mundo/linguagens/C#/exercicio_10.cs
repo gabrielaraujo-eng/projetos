@@ -1,0 +1,1 @@
+using (var file = new StreamReader("t.txt")) { }

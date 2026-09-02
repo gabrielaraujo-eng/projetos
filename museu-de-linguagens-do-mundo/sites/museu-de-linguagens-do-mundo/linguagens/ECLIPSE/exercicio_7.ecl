@@ -1,0 +1,1 @@
+catch(Goal, Error, Handler).

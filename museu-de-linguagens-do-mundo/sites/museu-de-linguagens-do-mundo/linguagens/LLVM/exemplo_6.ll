@@ -1,0 +1,1 @@
+@lista = global [3 x i32] [i32 1, i32 2, i32 3]

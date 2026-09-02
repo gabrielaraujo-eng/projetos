@@ -1,0 +1,1 @@
+for i in Reversed([1..10]) do Print(i); od;

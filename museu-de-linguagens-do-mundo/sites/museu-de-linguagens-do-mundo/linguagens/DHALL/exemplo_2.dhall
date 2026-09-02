@@ -1,0 +1,1 @@
+let idade = 25 let nome = "Dhall" in "${nome} tem ${Natural/show idade} anos"

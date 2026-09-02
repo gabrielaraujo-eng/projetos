@@ -1,0 +1,6 @@
+#!/usr/bin/falcon
+
+import Math
+
+var numero = 25
+print("Raiz quadrada de " + numero + ": " + Math.sqrt(numero))

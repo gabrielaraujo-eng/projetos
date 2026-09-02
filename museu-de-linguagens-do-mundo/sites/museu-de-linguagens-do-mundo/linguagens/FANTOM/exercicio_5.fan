@@ -1,0 +1,1 @@
+Int mult(Int a, Int b) { a * b }

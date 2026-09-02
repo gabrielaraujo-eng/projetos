@@ -1,0 +1,1 @@
+FOR i := 1 STEP 1 UNTIL 10 DO DISPLAY(i);

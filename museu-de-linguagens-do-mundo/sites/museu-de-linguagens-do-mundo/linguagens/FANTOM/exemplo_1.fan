@@ -1,0 +1,1 @@
+class Main { static Void main() { echo("Olá Mundo") } }

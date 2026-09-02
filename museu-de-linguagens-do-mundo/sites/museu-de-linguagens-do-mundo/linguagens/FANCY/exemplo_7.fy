@@ -1,0 +1,1 @@
+try { "Erro" raise } catch Error => e { e message println }

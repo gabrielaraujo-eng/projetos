@@ -1,0 +1,3 @@
+if (x > 5) {
+    Console.WriteLine("Maior");
+}

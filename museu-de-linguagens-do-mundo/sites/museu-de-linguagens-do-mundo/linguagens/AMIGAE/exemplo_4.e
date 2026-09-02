@@ -1,0 +1,1 @@
+FOR i:=1 TO 5 DO WriteF('Iteração: \d\n', i)

@@ -1,0 +1,1 @@
+echo %sh{ echo "3 1 4" | tr ' ' '\n' | sort }

@@ -1,0 +1,1 @@
+ds := DATASET(10, {INTEGER val}); // Loop implícito via DATASET

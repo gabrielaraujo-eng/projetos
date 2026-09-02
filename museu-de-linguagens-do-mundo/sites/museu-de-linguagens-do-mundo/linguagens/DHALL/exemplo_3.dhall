@@ -1,0 +1,1 @@
+if Natural/isZero 0 then "Zero" else "Não Zero"

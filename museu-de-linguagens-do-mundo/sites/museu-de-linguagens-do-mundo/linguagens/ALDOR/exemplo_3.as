@@ -1,0 +1,1 @@
+if x > 10 then stdout << "Maior" else stdout << "Menor";

@@ -1,0 +1,1 @@
+Vector#(10, Int#(32)) v <- replicateM(mkReg(0));

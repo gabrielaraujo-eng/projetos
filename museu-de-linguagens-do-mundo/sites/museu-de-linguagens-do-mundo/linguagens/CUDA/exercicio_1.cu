@@ -1,0 +1,1 @@
+hello<<<blocks, threads>>>();

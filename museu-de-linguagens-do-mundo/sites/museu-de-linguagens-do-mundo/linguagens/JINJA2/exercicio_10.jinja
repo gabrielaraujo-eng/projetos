@@ -1,0 +1,5 @@
+{# Exercício 10: Classificação de Números #}
+{% set numeros = [5, 2, 8, 1, 9] %}
+{% set numeros_ordenados = numeros | sort %}
+<p>Números originais: {{ numeros | join(", ") }}</p>
+<p>Números ordenados: {{ numeros_ordenados | join(", ") }}</p>

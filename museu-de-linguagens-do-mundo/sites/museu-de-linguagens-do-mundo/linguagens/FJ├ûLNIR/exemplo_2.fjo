@@ -1,0 +1,3 @@
+idade = 25
+nome = "Fjölnir"
+nome write " tem " write idade write " anos" write

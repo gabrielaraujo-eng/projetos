@@ -1,0 +1,3 @@
+on init
+  message("Olá Mundo")
+end on

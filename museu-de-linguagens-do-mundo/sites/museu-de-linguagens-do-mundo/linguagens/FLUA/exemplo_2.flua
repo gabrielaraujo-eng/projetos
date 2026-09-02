@@ -1,0 +1,3 @@
+var idade = 25
+var nome = "Flua"
+print(nome + " tem " + idade + " anos")

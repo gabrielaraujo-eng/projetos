@@ -1,0 +1,3 @@
+idade = 25
+nome = "Flang"
+print(nome + " tem " + idade + " anos")

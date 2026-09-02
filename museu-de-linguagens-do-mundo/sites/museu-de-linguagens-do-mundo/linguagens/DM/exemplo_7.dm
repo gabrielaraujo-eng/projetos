@@ -1,0 +1,1 @@
+# DM usa verificações manuais ou o operador de segurança ?.

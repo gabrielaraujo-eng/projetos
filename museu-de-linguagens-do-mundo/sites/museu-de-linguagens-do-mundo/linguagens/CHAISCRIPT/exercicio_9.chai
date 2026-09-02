@@ -1,0 +1,3 @@
+var base = 3.0;
+var expoente = 4.0;
+print("Potência: " + pow(base, expoente));

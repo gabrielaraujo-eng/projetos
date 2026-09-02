@@ -1,0 +1,1 @@
+const square = (n: number) => n * n;

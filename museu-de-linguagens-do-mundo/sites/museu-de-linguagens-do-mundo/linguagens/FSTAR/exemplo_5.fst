@@ -1,0 +1,1 @@
+let soma (a:int) (b:int) : int = a + b

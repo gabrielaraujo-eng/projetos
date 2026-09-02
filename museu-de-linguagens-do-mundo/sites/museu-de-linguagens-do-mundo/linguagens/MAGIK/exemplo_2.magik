@@ -1,0 +1,2 @@
+_local x << 42
+_local s << "Magik"

@@ -1,0 +1,1 @@
+interface MyIfc; method Action run(); endinterface

@@ -1,0 +1,2 @@
+FUNCTION Mult(nA, nB)
+RETURN nA * nB

@@ -1,0 +1,1 @@
+: HELLO ." Olá, Mundo!" ; HELLO

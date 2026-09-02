@@ -1,0 +1,1 @@
+const data = await Deno.readFile("hello.txt");

@@ -1,0 +1,1 @@
+Dim f As Single = 3.14

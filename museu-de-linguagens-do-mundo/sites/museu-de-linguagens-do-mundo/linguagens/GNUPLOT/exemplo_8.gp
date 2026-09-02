@@ -1,0 +1,1 @@
+// Gnuplot não tem upper nativo

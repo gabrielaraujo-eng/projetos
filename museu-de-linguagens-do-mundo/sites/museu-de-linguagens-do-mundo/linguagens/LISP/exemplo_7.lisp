@@ -1,0 +1,1 @@
+(handler-case (error "Erro") (error (c) (format t "Erro: ~A~%" c)))

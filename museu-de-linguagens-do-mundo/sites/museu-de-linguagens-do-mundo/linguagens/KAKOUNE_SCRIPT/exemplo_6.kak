@@ -1,0 +1,1 @@
+set-option global lista "1:2:3"

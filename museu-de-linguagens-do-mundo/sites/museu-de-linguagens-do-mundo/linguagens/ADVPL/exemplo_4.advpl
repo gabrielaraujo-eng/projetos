@@ -1,0 +1,3 @@
+For nI := 1 To 10
+  ConOut(nI)
+Next

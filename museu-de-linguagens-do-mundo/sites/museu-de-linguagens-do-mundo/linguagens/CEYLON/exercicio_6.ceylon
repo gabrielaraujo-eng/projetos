@@ -1,0 +1,1 @@
+Map<String,Integer> m = Map { "a"->1 };

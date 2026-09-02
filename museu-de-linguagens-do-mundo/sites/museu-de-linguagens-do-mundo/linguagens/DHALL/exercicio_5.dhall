@@ -1,0 +1,1 @@
+λ(a : Natural) → λ(b : Natural) → a * b

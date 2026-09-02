@@ -1,0 +1,1 @@
+list[3, 1, 4]: sort(|a, b| -> a: compareTo(b))

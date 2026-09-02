@@ -1,0 +1,1 @@
+List.contains 2 lista

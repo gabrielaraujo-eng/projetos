@@ -1,0 +1,1 @@
+proc/inverter(t) return reverse(t)

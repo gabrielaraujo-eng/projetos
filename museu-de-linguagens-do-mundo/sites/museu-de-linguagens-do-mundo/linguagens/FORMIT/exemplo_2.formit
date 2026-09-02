@@ -1,0 +1,3 @@
+var idade = 25
+var nome = "FormIt"
+println(nome + " tem " + idade + " anos")

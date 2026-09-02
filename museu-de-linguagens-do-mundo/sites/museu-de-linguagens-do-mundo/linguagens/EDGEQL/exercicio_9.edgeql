@@ -1,0 +1,1 @@
+SELECT 3.14 * <float64>r^2;

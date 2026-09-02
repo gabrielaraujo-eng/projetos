@@ -1,0 +1,1 @@
+%f = fadd double 3.14, 0.0

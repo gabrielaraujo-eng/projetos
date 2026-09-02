@@ -1,0 +1,2 @@
+; Regra para URI
+uri = scheme ":" hier-part [ "?" query ] [ "#" fragment ]

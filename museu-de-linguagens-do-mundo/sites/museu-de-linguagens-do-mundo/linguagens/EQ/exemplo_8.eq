@@ -1,0 +1,1 @@
+String.to_upper_case("eq");

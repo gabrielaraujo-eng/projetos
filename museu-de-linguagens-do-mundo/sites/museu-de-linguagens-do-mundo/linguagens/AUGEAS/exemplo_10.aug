@@ -1,0 +1,1 @@
+let lens = del /a/ "a"

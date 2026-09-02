@@ -1,0 +1,1 @@
+addEventListener(Event.ENTER_FRAME, onFrame);

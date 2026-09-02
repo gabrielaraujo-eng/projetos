@@ -1,0 +1,1 @@
+if (x > 0) { fprintf (stdout, "Positivo"); } else { fprintf (stdout, "Negativo"); }

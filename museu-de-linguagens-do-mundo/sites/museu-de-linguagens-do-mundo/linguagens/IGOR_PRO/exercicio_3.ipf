@@ -1,0 +1,1 @@
+if (mod(n, 2) == 0) Print "Par"; endif

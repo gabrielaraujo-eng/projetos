@@ -1,0 +1,1 @@
+FOR i 10 1 PRINT i

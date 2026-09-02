@@ -1,0 +1,1 @@
+const Hello = () => <div>Olá Mundo</div>;

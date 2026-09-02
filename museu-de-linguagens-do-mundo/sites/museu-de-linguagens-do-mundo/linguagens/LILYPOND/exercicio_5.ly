@@ -1,0 +1,1 @@
+mult = #(define-scheme-function (a b) (number? number?) (* a b))

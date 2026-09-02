@@ -1,0 +1,1 @@
+IF x = 0 THEN GOTO label;

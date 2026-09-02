@@ -1,0 +1,1 @@
+let list = [ seq "item" . [ label "1" ] ]

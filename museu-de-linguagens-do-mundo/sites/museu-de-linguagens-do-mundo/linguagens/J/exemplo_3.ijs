@@ -1,0 +1,1 @@
+if. x > 10 do. 'Maior' else. 'Menor' end.

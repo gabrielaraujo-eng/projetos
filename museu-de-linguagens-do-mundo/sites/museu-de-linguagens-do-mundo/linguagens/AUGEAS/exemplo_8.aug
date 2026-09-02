@@ -1,0 +1,1 @@
+let s = "Olá" . " Mundo"

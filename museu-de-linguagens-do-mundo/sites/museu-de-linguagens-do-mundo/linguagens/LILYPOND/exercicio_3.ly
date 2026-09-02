@@ -1,0 +1,1 @@
+#(if (= 0 (modulo n 2)) (print "Par"))

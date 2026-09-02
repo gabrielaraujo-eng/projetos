@@ -1,0 +1,2 @@
+; Regra para hexadecimal
+hex = 1*HEXDIG

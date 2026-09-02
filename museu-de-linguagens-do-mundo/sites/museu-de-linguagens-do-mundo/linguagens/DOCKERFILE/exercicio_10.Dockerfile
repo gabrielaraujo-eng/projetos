@@ -1,0 +1,1 @@
+ONBUILD RUN echo "Parent build completed"

@@ -1,0 +1,1 @@
+if: (x > 0) then: { "Positivo" println } else: { "Negativo" println }

@@ -1,0 +1,1 @@
+BOOLEAN ARRAY b(1:5);

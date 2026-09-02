@@ -1,0 +1,1 @@
+_sip._tcp IN SRV 10 60 5060 sip.exemplo.com.

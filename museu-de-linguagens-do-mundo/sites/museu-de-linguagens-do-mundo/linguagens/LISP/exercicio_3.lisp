@@ -1,0 +1,1 @@
+(if (evenp n) (print "Par"))

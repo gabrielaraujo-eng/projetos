@@ -1,0 +1,1 @@
+{"jsx".split("").reverse().join("")}

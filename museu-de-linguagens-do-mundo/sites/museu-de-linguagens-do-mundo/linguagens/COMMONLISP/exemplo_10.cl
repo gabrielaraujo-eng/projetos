@@ -1,0 +1,1 @@
+(defclass my-class () (id))

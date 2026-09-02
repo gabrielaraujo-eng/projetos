@@ -1,0 +1,1 @@
+const full = `Olá ${name}`;

@@ -1,0 +1,1 @@
+try { throw new java.lang.Exception("Erro") } catch (e) { print(e.Message) }

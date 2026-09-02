@@ -1,0 +1,3 @@
+DECLARE
+  x NUMBER := 42;
+  s VARCHAR2(20) := 'PL/SQL';

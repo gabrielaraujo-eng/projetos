@@ -1,0 +1,1 @@
+try print("Erro") catch e print(e)

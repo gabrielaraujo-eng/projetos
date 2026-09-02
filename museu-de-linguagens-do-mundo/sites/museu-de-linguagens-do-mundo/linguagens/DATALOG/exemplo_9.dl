@@ -1,0 +1,1 @@
+raiz(X, Y) :- Y = sqrt(X).

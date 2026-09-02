@@ -1,0 +1,1 @@
+// Flix usa Result para erros

@@ -1,0 +1,1 @@
+PROC soma(INT a, INT b) INT: a + b ENDPROC;

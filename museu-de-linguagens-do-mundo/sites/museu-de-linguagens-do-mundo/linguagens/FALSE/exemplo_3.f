@@ -1,0 +1,1 @@
+5 x: x; 0 > [ "Positivo" ] [ "Negativo" ] ?

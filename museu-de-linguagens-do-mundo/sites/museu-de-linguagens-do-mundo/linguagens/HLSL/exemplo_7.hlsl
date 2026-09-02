@@ -1,0 +1,1 @@
+// HLSL não tem try-catch
