@@ -1,5 +1,0 @@
-class Main
-  def main() : unit
-    println("Olá Mundo")
-  end
-end

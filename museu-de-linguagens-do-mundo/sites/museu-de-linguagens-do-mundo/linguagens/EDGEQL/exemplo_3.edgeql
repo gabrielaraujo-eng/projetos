@@ -1,1 +1,0 @@
-SELECT "Positivo" IF 5 > 0 ELSE "Negativo";

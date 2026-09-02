@@ -1,1 +1,0 @@
-<% Set conn = Server.CreateObject("ADODB.Connection") %>

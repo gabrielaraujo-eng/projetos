@@ -1,1 +1,0 @@
-SELECT math::sqrt(16);

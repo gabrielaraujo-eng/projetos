@@ -1,1 +1,0 @@
-def mult: a and: b { a * b }

@@ -1,2 +1,0 @@
-string s = "Olá Mundo";
-dialogMessage(s);

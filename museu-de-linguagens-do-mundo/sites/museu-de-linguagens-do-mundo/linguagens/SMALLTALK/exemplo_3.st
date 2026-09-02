@@ -1,1 +1,0 @@
-x > 10 ifTrue: [ Transcript show: 'Maior' ] ifFalse: [ Transcript show: 'Menor' ].

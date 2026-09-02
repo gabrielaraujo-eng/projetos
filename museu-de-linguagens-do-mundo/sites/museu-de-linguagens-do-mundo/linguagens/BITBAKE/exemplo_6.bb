@@ -1,1 +1,0 @@
-PACKAGES = "${PN} ${PN}-dev"

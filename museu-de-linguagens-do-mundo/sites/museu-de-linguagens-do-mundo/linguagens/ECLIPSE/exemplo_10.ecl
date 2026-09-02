@@ -1,1 +1,0 @@
-ordena(L, S) :- sort(L, S).

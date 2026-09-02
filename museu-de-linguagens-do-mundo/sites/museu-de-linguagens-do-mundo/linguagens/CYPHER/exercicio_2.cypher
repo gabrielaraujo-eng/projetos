@@ -1,1 +1,0 @@
-MERGE (u:User {id: 1})

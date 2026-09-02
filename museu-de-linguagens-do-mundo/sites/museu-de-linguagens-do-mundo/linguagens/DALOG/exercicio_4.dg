@@ -1,1 +1,0 @@
-(for $I from 10 down to 1) [show $I] (endfor)

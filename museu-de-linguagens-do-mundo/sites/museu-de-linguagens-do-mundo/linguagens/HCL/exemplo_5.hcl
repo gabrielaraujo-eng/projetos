@@ -1,3 +1,0 @@
-locals {
-  soma = a + b
-}

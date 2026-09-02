@@ -1,1 +1,0 @@
-val _ = if x > 5 then println! "Maior"

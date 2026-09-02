@@ -1,1 +1,0 @@
-Say "[real name]" in upper case.

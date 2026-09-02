@@ -1,1 +1,0 @@
-var obj:Object = {id: 1};

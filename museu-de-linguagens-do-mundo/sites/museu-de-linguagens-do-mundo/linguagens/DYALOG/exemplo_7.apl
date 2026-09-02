@@ -1,1 +1,0 @@
-⎕TRAP ← 0 'S' 'Erro capturado'

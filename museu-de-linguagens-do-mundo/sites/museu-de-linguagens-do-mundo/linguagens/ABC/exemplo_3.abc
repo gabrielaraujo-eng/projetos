@@ -1,4 +1,0 @@
-IF x > 5:
-    WRITE "Maior"
-ELSE:
-    WRITE "Menor"

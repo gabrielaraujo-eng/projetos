@@ -1,1 +1,0 @@
-Enum.each(1..5, fn i -> IO.puts(i) end)

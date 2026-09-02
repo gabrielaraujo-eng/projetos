@@ -1,1 +1,0 @@
-print(Duktape.version);

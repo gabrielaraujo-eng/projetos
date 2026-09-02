@@ -1,2 +1,0 @@
-; Defina um número de telefone
-phone = 1*DIGIT

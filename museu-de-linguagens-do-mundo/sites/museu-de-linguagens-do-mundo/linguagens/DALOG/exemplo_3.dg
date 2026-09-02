@@ -1,6 +1,0 @@
-(proc/check $X)
-    (if) ($X > 0) (then)
-        Positivo
-    (else)
-        Negativo
-    (endif)

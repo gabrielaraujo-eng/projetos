@@ -1,3 +1,0 @@
-(if (> x 0)
-    (message "Positivo")
-  (message "Negativo"))

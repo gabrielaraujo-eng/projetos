@@ -1,5 +1,0 @@
-TRYEXCEPTION
-  nRes := 1 / 0
-CATCHEXCEPTION
-  Alert("Erro")
-ENDEXCEPTION

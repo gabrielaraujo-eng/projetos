@@ -1,1 +1,0 @@
-// Fish não tem tratamento de exceções

@@ -1,1 +1,0 @@
-set myList to {1, 2, 3}

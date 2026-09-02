@@ -1,1 +1,0 @@
-die(message: "Erro")

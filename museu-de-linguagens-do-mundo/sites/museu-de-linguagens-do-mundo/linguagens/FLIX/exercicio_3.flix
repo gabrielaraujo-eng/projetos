@@ -1,1 +1,0 @@
-if (Int32.mod(n, 2) == 0) println("Par")

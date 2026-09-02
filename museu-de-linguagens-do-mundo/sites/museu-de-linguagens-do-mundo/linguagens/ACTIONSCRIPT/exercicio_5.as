@@ -1,1 +1,0 @@
-public function init():void { }

@@ -1,3 +1,0 @@
-(intro)
-    (let $Raiz (sqrt 16))
-    Raiz: [show $Raiz]

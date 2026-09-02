@@ -1,1 +1,0 @@
-Definition is_greater := if Nat.ltb 5 x then true else false.

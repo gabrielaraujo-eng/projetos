@@ -1,1 +1,0 @@
-(catch #t (lambda () (error "Erro")) (lambda (key . args) (display "Erro capturado")))

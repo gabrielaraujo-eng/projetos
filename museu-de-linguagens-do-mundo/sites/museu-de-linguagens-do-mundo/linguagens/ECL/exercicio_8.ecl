@@ -1,1 +1,0 @@
-Std.Str.Reverse('ecl');

@@ -1,2 +1,0 @@
-10 LET X = 42
-20 LET S$ = "BASIC"

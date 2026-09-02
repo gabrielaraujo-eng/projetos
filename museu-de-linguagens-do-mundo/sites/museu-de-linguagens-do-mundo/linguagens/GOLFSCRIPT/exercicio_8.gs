@@ -1,1 +1,0 @@
-"golfscript" -1 % n

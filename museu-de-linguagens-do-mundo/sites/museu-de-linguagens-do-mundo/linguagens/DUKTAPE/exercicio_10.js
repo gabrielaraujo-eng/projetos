@@ -1,1 +1,0 @@
-print(lista.indexOf(2) !== -1);

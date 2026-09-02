@@ -1,1 +1,0 @@
-IF x>10 THEN WriteF('Maior') ELSE WriteF('Menor')

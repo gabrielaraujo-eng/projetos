@@ -1,1 +1,0 @@
-(if (> x 5) (princ "Maior") (princ "Menor"))

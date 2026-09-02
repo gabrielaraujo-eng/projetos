@@ -1,3 +1,0 @@
-$ X = 5
-$ IF X .GT. 0 THEN WRITE SYS$OUTPUT "Positivo"
-$ IF X .LE. 0 THEN WRITE SYS$OUTPUT "Negativo"

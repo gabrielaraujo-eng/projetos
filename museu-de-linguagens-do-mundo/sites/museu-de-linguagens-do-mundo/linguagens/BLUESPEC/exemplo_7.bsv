@@ -1,1 +1,0 @@
-/* Bluespec é hardware, erros são asserções */

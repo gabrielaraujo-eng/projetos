@@ -1,1 +1,0 @@
-printfn "%f" (sqrt 16.0)

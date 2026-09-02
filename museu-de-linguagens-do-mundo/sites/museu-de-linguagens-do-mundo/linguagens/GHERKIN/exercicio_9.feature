@@ -1,1 +1,0 @@
-Then a área é 3.14 * r * r

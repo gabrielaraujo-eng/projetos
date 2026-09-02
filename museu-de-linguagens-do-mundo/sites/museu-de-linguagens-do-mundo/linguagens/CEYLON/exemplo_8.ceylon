@@ -1,1 +1,0 @@
-String full = "Olá ``name``";

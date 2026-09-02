@@ -1,1 +1,0 @@
-Local r:Float = Sqr(16)

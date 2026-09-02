@@ -1,1 +1,0 @@
-sub soma { my ($a, $b) = @_; return $a + $b; }

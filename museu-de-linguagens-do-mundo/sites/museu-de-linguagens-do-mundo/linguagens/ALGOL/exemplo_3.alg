@@ -1,1 +1,0 @@
-IF x > 5 THEN DISPLAY("Maior") ELSE DISPLAY("Menor");

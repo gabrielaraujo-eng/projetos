@@ -1,3 +1,0 @@
-Function Hello()
-  MsgInfo("Olá Mundo")
-Return

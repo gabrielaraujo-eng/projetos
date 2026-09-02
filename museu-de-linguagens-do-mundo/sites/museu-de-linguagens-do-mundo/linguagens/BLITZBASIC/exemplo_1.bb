@@ -1,2 +1,0 @@
-Print "Olá Mundo"
-WaitKey

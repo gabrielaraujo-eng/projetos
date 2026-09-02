@@ -1,1 +1,0 @@
-(Inversão manual)

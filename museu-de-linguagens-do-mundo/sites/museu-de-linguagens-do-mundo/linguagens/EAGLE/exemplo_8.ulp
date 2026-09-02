@@ -1,2 +1,0 @@
-string s = "eagle";
-string up = strupr(s);

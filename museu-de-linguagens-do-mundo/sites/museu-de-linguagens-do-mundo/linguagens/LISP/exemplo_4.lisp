@@ -1,1 +1,0 @@
-(loop for i from 0 to 4 do (print i))

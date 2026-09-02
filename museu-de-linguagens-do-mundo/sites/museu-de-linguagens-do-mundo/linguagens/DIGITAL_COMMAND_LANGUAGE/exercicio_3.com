@@ -1,1 +1,0 @@
-$ IF N .EQ. (N/2)*2 THEN WRITE SYS$OUTPUT "Par"

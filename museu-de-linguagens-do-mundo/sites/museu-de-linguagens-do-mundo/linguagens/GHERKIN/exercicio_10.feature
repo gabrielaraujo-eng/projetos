@@ -1,1 +1,0 @@
-And 2 está na lista

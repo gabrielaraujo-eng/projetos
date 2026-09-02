@@ -1,1 +1,0 @@
-std::vector<int> list = {1, 2, 3};

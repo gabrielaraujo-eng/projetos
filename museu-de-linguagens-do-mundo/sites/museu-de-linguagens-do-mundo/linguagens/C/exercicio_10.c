@@ -1,1 +1,0 @@
-FILE *fp = fopen("t.txt", "r");

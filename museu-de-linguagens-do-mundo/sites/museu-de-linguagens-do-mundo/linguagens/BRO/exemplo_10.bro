@@ -1,1 +1,0 @@
-redef record connection += { my_field: count &optional };

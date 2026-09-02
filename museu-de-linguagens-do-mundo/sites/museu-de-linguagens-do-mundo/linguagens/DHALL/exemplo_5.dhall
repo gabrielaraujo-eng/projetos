@@ -1,1 +1,0 @@
-let soma = λ(a : Natural) → λ(b : Natural) → a + b in soma 5 3

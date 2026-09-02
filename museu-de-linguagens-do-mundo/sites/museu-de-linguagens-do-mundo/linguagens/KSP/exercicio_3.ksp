@@ -1,3 +1,0 @@
-if ($n mod 2 = 0)
-  message("Par")
-end if

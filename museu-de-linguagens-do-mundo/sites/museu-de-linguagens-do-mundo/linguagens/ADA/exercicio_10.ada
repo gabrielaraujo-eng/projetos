@@ -1,1 +1,0 @@
-task Body T is begin null; end T;

@@ -1,1 +1,0 @@
-Say "[text]" reversed.

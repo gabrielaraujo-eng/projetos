@@ -1,1 +1,0 @@
-if (val == null) return;

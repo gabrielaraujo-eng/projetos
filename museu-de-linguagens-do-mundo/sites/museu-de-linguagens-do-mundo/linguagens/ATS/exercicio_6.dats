@@ -1,1 +1,0 @@
-val arr = array0_make_elt (5, 0)

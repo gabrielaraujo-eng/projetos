@@ -1,1 +1,0 @@
-TRY PRINT "Erro" CATCH PRINT "Erro"

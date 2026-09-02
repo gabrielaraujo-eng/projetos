@@ -1,1 +1,0 @@
-event my_event() { }

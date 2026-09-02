@@ -1,1 +1,0 @@
-try 1/0 with | :? System.DivideByZeroException -> 0

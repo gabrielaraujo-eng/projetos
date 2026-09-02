@@ -1,5 +1,0 @@
-&ACCESS RVP
-&REL 1
-DEF hello()
-  MsgNotify("Olá Mundo")
-END

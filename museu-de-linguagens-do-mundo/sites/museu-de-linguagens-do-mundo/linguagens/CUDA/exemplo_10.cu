@@ -1,1 +1,0 @@
-__shared__ float shared_data[256];

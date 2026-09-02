@@ -1,1 +1,0 @@
-If N is even, say "Par".

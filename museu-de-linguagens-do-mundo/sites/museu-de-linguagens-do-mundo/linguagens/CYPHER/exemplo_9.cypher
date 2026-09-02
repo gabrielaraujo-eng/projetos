@@ -1,1 +1,0 @@
-RETURN sqrt(16)

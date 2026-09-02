@@ -1,1 +1,0 @@
-(accumulate [found? false _ v (ipairs lista)] (or found? (= v 2)))

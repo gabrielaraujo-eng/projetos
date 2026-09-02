@@ -1,1 +1,0 @@
-Log.display("Nagato09-dev");

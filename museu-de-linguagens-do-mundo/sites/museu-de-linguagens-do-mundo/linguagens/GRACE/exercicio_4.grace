@@ -1,1 +1,0 @@
-for (10.downTo(1)) do { i -> print(i) }

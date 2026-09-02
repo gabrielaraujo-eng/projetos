@@ -1,1 +1,0 @@
-Variable f = 3.14

@@ -1,1 +1,0 @@
-result = sqrt(16);

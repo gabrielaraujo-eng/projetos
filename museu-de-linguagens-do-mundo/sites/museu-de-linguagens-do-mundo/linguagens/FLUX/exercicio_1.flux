@@ -1,1 +1,0 @@
-csv.from(rows: [{name: "Nagato09-dev"}])

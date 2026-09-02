@@ -1,2 +1,0 @@
-; Crie uma regra para um endereço de email
-email = local-part "@" domain

@@ -1,1 +1,0 @@
-print(n % 2 === 0 ? "Par" : "Ímpar");

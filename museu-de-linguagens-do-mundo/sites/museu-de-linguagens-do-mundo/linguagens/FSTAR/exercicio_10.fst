@@ -1,1 +1,0 @@
-List.mem 2 lista

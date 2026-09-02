@@ -1,1 +1,0 @@
-public pointcut setter() : call(void set*(..));

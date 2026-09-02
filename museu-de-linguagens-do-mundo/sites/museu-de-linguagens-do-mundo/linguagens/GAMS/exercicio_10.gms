@@ -1,1 +1,0 @@
-if (lista("2"), Display "Achou");

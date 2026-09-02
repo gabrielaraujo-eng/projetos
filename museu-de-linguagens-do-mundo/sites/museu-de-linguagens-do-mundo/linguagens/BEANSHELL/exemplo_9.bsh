@@ -1,1 +1,0 @@
-double r = Math.sqrt(16);

@@ -1,1 +1,0 @@
-// Sintaxe para sort em HASKELL

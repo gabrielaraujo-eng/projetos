@@ -1,1 +1,0 @@
-FOR x IN range_unpack(range(10, 0, step := -1)) UNION (SELECT x);

@@ -1,1 +1,0 @@
-if ($x -gt 10) { Write-Host "Maior" } else { Write-Host "Menor" }

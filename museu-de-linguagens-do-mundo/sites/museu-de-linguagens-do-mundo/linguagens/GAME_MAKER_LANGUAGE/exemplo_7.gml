@@ -1,1 +1,0 @@
-// Sintaxe para error em GAME_MAKER_LANGUAGE

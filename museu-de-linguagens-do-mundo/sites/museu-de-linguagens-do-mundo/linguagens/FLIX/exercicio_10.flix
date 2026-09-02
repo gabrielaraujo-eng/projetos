@@ -1,1 +1,0 @@
-List.memberOf(2, lista)

@@ -1,1 +1,0 @@
-syscall:::error { printf("Erro\n"); }

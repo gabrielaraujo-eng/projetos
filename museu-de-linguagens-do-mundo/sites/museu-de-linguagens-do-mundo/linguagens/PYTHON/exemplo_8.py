@@ -1,1 +1,0 @@
-// Sintaxe para string em PYTHON

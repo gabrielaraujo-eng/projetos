@@ -1,1 +1,0 @@
-lista.addObject(3)

@@ -1,1 +1,0 @@
-__device__ int square(int n) { return n * n; }

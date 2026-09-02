@@ -1,1 +1,0 @@
-// AsciiDoc não tem loops, é marcação

@@ -1,1 +1,0 @@
-Tuple2#(Int, Int) t = tuple2(1, 2);

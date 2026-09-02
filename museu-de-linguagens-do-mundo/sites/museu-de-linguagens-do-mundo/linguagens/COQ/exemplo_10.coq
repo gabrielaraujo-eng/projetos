@@ -1,1 +1,0 @@
-Inductive tree : Set := Leaf | Node : tree -> tree -> tree.

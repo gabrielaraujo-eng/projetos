@@ -1,2 +1,0 @@
-I HAS A x ITZ 42
-I HAS A s ITZ "LOLCode"

@@ -1,2 +1,0 @@
-try:
-    command || echo "fail"

@@ -1,1 +1,0 @@
-if X > 0 then MsgBox('Positivo', mbInformation, MB_OK);

@@ -1,1 +1,0 @@
-static function soma(a:Int, b:Int):Int return a + b;

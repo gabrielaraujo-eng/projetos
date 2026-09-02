@@ -1,1 +1,0 @@
-IF (n % 2) = 0 THEN WriteF('Par')

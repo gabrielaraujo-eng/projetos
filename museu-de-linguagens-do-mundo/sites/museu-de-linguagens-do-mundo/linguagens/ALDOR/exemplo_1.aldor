@@ -1,3 +1,0 @@
-#include "aldor"
-#include "aldorio"
-stdout << "Olá Mundo" << newline

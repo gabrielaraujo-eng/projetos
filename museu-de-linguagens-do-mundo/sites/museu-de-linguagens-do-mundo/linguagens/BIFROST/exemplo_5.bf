@@ -1,1 +1,0 @@
-fn square(n) { return n * n }

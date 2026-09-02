@@ -1,1 +1,0 @@
-// Inno Setup usa arrays dinâmicos em Pascal Script

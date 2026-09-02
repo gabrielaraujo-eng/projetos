@@ -1,1 +1,0 @@
-tell app "System Events" to get name of every process

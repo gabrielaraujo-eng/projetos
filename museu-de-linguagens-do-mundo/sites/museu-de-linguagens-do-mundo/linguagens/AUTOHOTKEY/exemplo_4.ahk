@@ -1,3 +1,0 @@
-Loop, 5 {
-    MsgBox, %A_Index%
-}

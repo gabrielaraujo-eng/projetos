@@ -1,1 +1,0 @@
-AppName=Nagato09-dev

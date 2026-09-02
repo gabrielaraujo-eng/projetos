@@ -1,1 +1,0 @@
-LIST lista = (um), dois, tres

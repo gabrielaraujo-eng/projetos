@@ -1,1 +1,0 @@
-define i32 @mult(i32 %a, i32 %b) { %res = mul i32 %a, %b }

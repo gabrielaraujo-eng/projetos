@@ -1,2 +1,0 @@
-positivo(X) :- X > 0.
-?- positivo(5).

@@ -1,1 +1,0 @@
-lista push: 3

@@ -1,4 +1,0 @@
-DECL INT idade
-DECL CHAR nome[20]
-idade = 25
-nome[] = "KRL"

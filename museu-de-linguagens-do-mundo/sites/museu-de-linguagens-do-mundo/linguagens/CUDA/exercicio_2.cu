@@ -1,1 +1,0 @@
-cudaMemcpy(d_a, h_a, size, cudaMemcpyHostToDevice);

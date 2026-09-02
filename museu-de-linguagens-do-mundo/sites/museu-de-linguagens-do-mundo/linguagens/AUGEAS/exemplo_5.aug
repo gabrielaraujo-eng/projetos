@@ -1,1 +1,0 @@
-let my_func (a:string) = [ label a ]

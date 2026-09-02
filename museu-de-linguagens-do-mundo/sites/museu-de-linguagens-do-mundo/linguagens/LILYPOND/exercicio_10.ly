@@ -1,1 +1,0 @@
-#(member 2 lista)

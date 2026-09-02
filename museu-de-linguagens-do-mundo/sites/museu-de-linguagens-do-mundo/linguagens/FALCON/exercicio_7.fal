@@ -1,8 +1,0 @@
-#!/usr/bin/falcon
-
-try:
-    var divisor = 0
-    var valor = 5 / divisor
-    print("Valor: " + valor)
-catch e:
-    print("Erro de divisão: " + e.message)

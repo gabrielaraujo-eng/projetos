@@ -1,1 +1,0 @@
-try { throw new Exception("Erro"); } catch (Exception $e) { echo $e->getMessage(); }

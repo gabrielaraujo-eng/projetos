@@ -1,4 +1,0 @@
-% LOGTALK - Variáveis e Tipos - Como armazenar dados.
-main :-
-    write('Variáveis e Tipos - Como armazenar dados.'), nl.
-    halt.

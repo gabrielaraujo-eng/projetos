@@ -1,1 +1,0 @@
-When eu inverto a string

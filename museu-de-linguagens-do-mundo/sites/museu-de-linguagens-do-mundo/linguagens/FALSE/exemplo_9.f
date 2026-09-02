@@ -1,1 +1,0 @@
-16 % // FALSE não tem sqrt nativo

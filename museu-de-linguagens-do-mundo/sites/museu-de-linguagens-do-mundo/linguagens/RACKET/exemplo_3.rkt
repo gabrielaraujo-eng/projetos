@@ -1,1 +1,0 @@
-(if (> x 10) (displayln "Maior") (displayln "Menor"))

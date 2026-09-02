@@ -1,8 +1,0 @@
-{# Exemplo 7: Tratamento de erros (ou equivalente) #}
-{# Jinja2 não possui tratamento de erros como try-catch. Pode-se usar condicionais para evitar erros. #}
-{% set valor = none %}
-{% if valor is not none %}
-    <p>Valor: {{ valor }}</p>
-{% else %}
-    <p>Valor não definido.</p>
-{% endif %}

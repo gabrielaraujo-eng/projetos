@@ -1,1 +1,0 @@
-// F* usa tipos para garantir ausência de erros

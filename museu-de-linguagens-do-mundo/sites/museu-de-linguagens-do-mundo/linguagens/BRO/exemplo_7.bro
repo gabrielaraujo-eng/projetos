@@ -1,1 +1,0 @@
-/* Bro/Zeek foca em eventos de rede */

@@ -1,1 +1,0 @@
-(while (> x 0) (setq x (1- x)))

@@ -1,8 +1,0 @@
-{# Exercício 7: Simular erro de acesso #}
-{# Jinja2 não tem try-catch. Usar condicionais para evitar acesso a chaves inexistentes. #}
-{% set dados = {"chave": "valor"} %}
-{% if "outra_chave" in dados %}
-    <p>Valor de outra_chave: {{ dados.outra_chave }}</p>
-{% else %}
-    <p>Chave 'outra_chave' não encontrada.</p>
-{% endif %}

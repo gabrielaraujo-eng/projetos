@@ -1,1 +1,0 @@
-string(CONCAT full "Olá" " Mundo")

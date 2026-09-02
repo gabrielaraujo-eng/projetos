@@ -1,1 +1,0 @@
-(G-Code é geralmente case-insensitive)

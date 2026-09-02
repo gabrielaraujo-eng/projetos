@@ -1,3 +1,0 @@
-ifdef::x[]
-Texto se x existe
-endif::[]

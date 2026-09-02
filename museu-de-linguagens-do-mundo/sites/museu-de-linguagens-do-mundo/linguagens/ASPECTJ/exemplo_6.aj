@@ -1,1 +1,0 @@
-List<Integer> list = Arrays.asList(1, 2, 3);

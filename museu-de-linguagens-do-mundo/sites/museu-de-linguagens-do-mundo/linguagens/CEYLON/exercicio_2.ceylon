@@ -1,1 +1,0 @@
-Boolean active = true;

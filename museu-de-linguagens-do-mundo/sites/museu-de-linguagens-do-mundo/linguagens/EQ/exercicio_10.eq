@@ -1,1 +1,0 @@
-lista.contains(2);

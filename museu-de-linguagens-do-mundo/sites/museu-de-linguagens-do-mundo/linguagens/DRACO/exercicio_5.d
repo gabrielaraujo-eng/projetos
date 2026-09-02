@@ -1,1 +1,0 @@
-proc mult(word a, b) word: a * b corp

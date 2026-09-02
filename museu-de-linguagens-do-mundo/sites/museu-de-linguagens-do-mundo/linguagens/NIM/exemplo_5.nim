@@ -1,1 +1,0 @@
-proc soma(a, b: int): int = a + b

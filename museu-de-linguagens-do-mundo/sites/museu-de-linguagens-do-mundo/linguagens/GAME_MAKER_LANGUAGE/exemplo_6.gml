@@ -1,1 +1,0 @@
-// Sintaxe para list em GAME_MAKER_LANGUAGE

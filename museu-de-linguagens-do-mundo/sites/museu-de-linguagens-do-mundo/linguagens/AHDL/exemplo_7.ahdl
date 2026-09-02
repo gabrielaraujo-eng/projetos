@@ -1,1 +1,0 @@
-ASSERT (val > 5) REPORT "Erro de valor";

@@ -1,2 +1,0 @@
-<!-- MARKDOWN - Tratamento de Erros - Lidando com exceções e falhas. -->
-<div>Tratamento de Erros - Lidando com exceções e falhas.</div>

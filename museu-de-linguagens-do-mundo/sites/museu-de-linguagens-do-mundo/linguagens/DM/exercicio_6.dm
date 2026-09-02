@@ -1,1 +1,0 @@
-lista.Add(3)

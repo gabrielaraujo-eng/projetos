@@ -1,1 +1,0 @@
-datetype color = Red | Blue

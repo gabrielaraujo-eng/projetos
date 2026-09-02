@@ -1,1 +1,0 @@
-java.lang.Math.sqrt(16)

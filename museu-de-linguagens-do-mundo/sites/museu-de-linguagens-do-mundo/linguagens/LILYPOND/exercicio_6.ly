@@ -1,1 +1,0 @@
-lista = #(append lista '(3))

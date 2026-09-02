@@ -1,1 +1,0 @@
-(let ((idade 25) (nome "Lisp")) (format t "~A tem ~D anos~%" nome idade))

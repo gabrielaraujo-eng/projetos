@@ -1,1 +1,0 @@
-And eu conto de 10 até 1

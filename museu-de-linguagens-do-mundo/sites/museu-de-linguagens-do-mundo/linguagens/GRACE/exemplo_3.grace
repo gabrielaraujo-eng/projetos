@@ -1,5 +1,0 @@
-if (x > 0) then {
-  print "Positivo"
-} else {
-  print "Negativo"
-}

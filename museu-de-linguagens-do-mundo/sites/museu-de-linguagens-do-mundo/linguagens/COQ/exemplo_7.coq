@@ -1,1 +1,0 @@
-(* Coq é uma linguagem de prova, erros são impossibilidades *)

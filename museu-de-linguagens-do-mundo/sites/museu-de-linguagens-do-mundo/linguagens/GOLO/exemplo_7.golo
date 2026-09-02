@@ -1,1 +1,0 @@
-try { throw RuntimeException("Erro") } catch (e) { println(e: getMessage()) }

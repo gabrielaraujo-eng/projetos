@@ -1,3 +1,0 @@
-sum = term , "+" , term ;
-term = factor ;
-factor = number ;

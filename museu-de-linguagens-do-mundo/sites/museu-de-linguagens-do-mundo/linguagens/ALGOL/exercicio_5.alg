@@ -1,1 +1,0 @@
-PROCEDURE print(s); STRING s; DISPLAY(s);

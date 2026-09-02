@@ -1,1 +1,0 @@
-rep movsb ; Copia string

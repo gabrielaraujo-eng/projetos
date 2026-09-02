@@ -1,1 +1,0 @@
-SELECT "Nagato09-dev";

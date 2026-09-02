@@ -1,1 +1,0 @@
-if x > 10 then writeln('Maior') else writeln('Menor');

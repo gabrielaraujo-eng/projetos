@@ -1,8 +1,0 @@
-$ORIGIN exemplo.com.
-@ IN SOA ns1.exemplo.com. admin.exemplo.com. (
-  2026061701 ; serial
-  3600       ; refresh
-  1800       ; retry
-  604800     ; expire
-  600        ; minimum
-)

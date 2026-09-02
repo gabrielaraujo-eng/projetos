@@ -1,1 +1,0 @@
-COMMENT Concatenação não padrão;

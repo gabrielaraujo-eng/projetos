@@ -1,1 +1,0 @@
-SELECT <float64>3.14;

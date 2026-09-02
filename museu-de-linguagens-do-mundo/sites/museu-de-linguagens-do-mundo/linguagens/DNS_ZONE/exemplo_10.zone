@@ -1,2 +1,0 @@
-$TTL 86400
-@ IN SOA ns1.exemplo.com. hostmaster.exemplo.com. ( 1 3h 15m 1w 1d )

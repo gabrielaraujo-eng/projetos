@@ -1,1 +1,0 @@
-search(lista, 2);

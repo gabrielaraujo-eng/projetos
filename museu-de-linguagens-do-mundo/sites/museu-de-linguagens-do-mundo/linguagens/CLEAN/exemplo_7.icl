@@ -1,1 +1,0 @@
-/* Clean usa tipos de unicidade para erros */

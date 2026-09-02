@@ -1,1 +1,0 @@
-function Mult(A, B: Integer): Integer;

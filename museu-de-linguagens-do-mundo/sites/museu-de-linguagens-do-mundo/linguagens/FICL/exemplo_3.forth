@@ -1,1 +1,0 @@
-5 x ! x @ 0 > IF ." Positivo" ELSE ." Negativo" THEN

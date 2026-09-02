@@ -1,1 +1,0 @@
-<#macro mult a b>${a * b}</#macro>

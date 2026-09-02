@@ -1,1 +1,0 @@
-every i := 0 to 4 do write(i)

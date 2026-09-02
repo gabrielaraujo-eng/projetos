@@ -1,3 +1,0 @@
-repeat i <- 5
-  println(i)
-end

@@ -1,1 +1,0 @@
-SELECT str_upper("edgeql");

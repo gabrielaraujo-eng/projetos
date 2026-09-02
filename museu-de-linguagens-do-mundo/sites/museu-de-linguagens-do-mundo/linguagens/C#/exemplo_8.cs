@@ -1,1 +1,0 @@
-string full = $"Olá {name}";

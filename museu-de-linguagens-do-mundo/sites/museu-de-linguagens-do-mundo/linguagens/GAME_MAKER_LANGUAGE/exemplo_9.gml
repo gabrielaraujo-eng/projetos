@@ -1,1 +1,0 @@
-// Sintaxe para math em GAME_MAKER_LANGUAGE

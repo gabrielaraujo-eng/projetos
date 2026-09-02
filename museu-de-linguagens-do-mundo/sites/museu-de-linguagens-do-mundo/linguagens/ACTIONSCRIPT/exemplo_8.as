@@ -1,1 +1,0 @@
-var full:String = "A" + "B";

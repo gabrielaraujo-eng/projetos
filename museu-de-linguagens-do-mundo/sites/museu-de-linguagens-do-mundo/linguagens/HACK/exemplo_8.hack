@@ -1,1 +1,0 @@
-echo strtolower("HACK");

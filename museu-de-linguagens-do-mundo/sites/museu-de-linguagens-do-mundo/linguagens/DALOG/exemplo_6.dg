@@ -1,3 +1,0 @@
-(intro)
-    (let $Lista [1 2 3])
-    A lista é: [show $Lista].

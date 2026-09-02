@@ -1,1 +1,0 @@
-proc soma {a b} { return [expr $a + $b] }

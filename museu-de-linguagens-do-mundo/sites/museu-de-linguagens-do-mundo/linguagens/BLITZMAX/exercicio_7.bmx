@@ -1,1 +1,0 @@
-Assert x > 0

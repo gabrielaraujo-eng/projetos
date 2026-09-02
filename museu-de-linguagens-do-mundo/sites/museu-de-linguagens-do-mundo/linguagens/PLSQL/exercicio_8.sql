@@ -1,3 +1,0 @@
-BEGIN
-  DBMS_OUTPUT.PUT_LINE('Olá, Mundo!');
-END;

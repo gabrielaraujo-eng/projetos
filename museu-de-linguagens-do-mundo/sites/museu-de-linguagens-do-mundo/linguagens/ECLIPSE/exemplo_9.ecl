@@ -1,1 +1,0 @@
-raiz(X, R) :- R is sqrt(X).

@@ -1,1 +1,0 @@
-catch(Goal, Error, Handler).

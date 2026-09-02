@@ -1,1 +1,0 @@
-Type MyType Field id End Type

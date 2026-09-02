@@ -1,1 +1,0 @@
-let rev (s:string) = new string(s.ToCharArray() |> Array.rev)

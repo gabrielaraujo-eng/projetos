@@ -1,1 +1,0 @@
-upper(S, U) :- string_upper(S, U).

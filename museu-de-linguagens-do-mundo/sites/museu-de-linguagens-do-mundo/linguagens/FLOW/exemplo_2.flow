@@ -1,3 +1,0 @@
-idade = 25;
-nome = "Flow";
-println(nome + " tem " + toString(idade) + " anos");

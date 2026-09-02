@@ -1,1 +1,0 @@
-macro(log m) message(${m}) endmacro()

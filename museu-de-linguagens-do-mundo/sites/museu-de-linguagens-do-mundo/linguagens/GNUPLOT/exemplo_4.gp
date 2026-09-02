@@ -1,1 +1,0 @@
-do for [i=0:4] { print i }

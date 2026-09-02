@@ -1,1 +1,0 @@
-Given o usuário "Nagato09-dev"

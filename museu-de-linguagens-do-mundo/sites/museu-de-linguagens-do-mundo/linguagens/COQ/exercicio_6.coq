@@ -1,1 +1,0 @@
-Definition head {A} (l : list A) := match l with | nil => None | h :: _ => Some h end.

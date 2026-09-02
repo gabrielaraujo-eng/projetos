@@ -1,1 +1,0 @@
-print(Math.sqrt(16));

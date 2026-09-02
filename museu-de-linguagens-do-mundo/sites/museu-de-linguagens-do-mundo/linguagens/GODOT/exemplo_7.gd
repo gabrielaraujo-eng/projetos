@@ -1,1 +1,0 @@
-// GDScript usa sinais ou verificações para erros

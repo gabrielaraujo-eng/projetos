@@ -1,1 +1,0 @@
-echo pi() * pow($r, 2);

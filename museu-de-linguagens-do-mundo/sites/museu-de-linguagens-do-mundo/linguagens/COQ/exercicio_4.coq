@@ -1,1 +1,0 @@
-Fixpoint sum (n : nat) := match n with | 0 => 0 | S n' => n + sum n' end.

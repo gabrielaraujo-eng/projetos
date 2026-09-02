@@ -1,1 +1,0 @@
-(format (standard-output) "Olá Mundo\n")

@@ -1,1 +1,0 @@
-StrReverse(s)

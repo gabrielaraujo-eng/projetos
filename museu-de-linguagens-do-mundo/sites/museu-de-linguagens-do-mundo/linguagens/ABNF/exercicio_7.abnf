@@ -1,2 +1,0 @@
-; Regra para data YYYY-MM-DD
-date = 4DIGIT "-" 2DIGIT "-" 2DIGIT

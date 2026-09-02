@@ -1,1 +1,0 @@
-// Sintaxe para vars em GRAMMATICAL_FRAMEWORK

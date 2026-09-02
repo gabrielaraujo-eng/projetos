@@ -1,1 +1,0 @@
-mult(INTEGER a, INTEGER b) := a * b;

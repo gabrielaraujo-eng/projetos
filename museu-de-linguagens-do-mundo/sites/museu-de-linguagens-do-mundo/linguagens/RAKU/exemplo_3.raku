@@ -1,1 +1,0 @@
-if $x > 10 { say "Maior" } else { say "Menor" }

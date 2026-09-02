@@ -1,1 +1,0 @@
-(with-handler (lambda (c) (print "Erro")) (error "Erro"))

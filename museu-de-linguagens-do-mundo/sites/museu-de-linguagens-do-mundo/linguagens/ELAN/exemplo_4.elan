@@ -1,1 +1,0 @@
-FOR i FROM 0 UPTO 4 DO putline(text(i)) OD;

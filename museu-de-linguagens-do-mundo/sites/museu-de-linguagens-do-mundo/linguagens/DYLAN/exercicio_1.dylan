@@ -1,1 +1,0 @@
-format-out("Nagato09-dev");

@@ -1,3 +1,0 @@
-INT idade := 25;
-TEXT nome := "ELAN";
-putline(nome + " tem " + text(idade) + " anos");

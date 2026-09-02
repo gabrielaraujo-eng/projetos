@@ -1,1 +1,0 @@
-SetArrayLength(Lista, 4);

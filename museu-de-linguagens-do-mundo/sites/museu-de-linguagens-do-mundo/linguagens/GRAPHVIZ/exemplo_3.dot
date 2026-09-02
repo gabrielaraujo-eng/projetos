@@ -1,4 +1,0 @@
-digraph G {
-  x -> positivo [label=">0"];
-  x -> negativo [label="<=0"];
-}

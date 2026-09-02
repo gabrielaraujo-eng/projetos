@@ -1,1 +1,0 @@
--- Uso de Maybe ou Either

@@ -1,1 +1,0 @@
-try { Deno.readTextFileSync("nonexistent.txt"); } catch (e) { console.log("Erro"); }

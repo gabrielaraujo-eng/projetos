@@ -1,1 +1,0 @@
-Print("Olá Mundo\n");

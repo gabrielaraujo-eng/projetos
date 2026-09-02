@@ -1,1 +1,0 @@
-implement main0 () = print ("Olá Mundo\n")

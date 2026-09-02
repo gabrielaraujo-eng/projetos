@@ -1,1 +1,0 @@
-<% On Error Resume Next %>

@@ -1,1 +1,0 @@
-cudaError_t err = cudaGetLastError();

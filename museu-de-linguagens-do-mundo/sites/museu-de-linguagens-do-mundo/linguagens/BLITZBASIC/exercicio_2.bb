@@ -1,1 +1,0 @@
-Global g = 1

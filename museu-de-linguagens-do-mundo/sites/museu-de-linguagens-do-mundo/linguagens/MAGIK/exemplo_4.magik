@@ -1,3 +1,0 @@
-_for i _over range(1, 5) _loop
-  write(i)
-_endloop

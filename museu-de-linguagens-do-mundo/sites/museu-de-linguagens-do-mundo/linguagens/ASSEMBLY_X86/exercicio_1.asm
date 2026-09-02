@@ -1,1 +1,0 @@
-mov eax, 1 ; sys_exit

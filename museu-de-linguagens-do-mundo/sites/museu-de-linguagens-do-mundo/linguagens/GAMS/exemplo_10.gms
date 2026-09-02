@@ -1,1 +1,0 @@
-// GAMS lida com conjuntos ordenados nativamente

@@ -1,1 +1,0 @@
-(*error*) ; Função de erro

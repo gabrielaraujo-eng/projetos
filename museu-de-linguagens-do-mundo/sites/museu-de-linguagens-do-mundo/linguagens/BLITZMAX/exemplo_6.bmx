@@ -1,1 +1,0 @@
-Local list:Int[] = [1, 2, 3]

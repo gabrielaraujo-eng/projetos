@@ -1,5 +1,0 @@
---- a/data.json
-+++ b/data.json
-@@ -2,1 +2,3 @@
--  "list": [1, 2]
-+  "list": [1, 2, 3]

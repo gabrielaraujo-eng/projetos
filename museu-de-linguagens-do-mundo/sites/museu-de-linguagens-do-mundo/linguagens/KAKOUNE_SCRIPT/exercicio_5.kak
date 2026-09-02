@@ -1,1 +1,0 @@
-define-command mult -params 2 %{ echo %sh{ echo $(( $1 * $2 )) } }

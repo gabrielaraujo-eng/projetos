@@ -1,1 +1,0 @@
-reverse_list(L, R) :- reverse(L, R).

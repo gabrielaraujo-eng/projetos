@@ -1,3 +1,0 @@
-//VARJOB JOB (123),'Variaveis',CLASS=A
-// SET IDADE=25
-// SET NOME=JCL

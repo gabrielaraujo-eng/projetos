@@ -1,5 +1,0 @@
-// MODULA_2 - Funções - Criando blocos de código reutilizáveis.
-program Main;
-begin
-    writeln('Funções - Criando blocos de código reutilizáveis.');
-end.

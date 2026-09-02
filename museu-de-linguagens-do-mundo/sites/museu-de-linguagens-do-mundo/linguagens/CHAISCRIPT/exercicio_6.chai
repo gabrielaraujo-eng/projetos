@@ -1,2 +1,0 @@
-var frutas = ["maçã", "banana", "laranja"];
-print("Minhas frutas: " + frutas);

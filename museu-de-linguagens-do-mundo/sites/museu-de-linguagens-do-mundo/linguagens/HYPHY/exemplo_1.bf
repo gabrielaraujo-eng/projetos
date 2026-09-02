@@ -1,1 +1,0 @@
-fprintf (stdout, "Olá Mundo\n");

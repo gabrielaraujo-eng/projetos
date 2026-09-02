@@ -1,2 +1,0 @@
-x: INTEGER
-s: STRING

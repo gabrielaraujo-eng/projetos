@@ -1,1 +1,0 @@
-// Igor Pro usa verificações de erro via V_flag

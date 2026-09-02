@@ -1,1 +1,0 @@
-let isEven n = n % 2 = 0

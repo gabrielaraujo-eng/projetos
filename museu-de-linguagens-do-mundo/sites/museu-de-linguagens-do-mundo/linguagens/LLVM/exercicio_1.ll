@@ -1,1 +1,0 @@
-@user = private constant [14 x i8] c"Nagato09-dev\00"

@@ -1,1 +1,0 @@
-const full = `Olá ${name}`;

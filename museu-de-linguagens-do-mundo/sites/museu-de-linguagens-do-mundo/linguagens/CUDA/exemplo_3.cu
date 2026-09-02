@@ -1,1 +1,0 @@
-if (threadIdx.x > 5) { }

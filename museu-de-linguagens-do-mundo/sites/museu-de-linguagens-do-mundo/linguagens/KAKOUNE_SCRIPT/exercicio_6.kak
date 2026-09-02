@@ -1,1 +1,0 @@
-set-option -add global lista ":3"

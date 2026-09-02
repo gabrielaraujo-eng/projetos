@@ -1,1 +1,0 @@
-lista.Find(2);

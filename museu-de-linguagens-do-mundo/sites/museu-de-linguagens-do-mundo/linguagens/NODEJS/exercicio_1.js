@@ -1,1 +1,0 @@
-console.log('Exercício 1: Hello World');

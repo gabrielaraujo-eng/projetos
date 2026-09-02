@@ -1,2 +1,0 @@
-; Regra para comentário
-comment = ";" *(WSP / VCHAR)

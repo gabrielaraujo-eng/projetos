@@ -1,1 +1,0 @@
-(fn mult [a b] (* a b))

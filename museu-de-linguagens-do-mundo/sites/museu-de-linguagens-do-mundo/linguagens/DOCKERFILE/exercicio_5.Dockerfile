@@ -1,1 +1,0 @@
-ENTRYPOINT ["/bin/sh", "-c"]

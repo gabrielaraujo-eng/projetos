@@ -1,1 +1,0 @@
-fun square (n: int): int = n * n

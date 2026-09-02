@@ -1,1 +1,0 @@
-if n mod 2 = 0 then Print("Par"); fi;

@@ -1,1 +1,0 @@
-(if (> x 0) (print "Positivo") (print "Negativo"))

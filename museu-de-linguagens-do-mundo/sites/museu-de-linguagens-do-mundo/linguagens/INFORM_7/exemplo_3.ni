@@ -1,1 +1,0 @@
-If the score is greater than 0, say "Positivo"; otherwise say "Negativo".

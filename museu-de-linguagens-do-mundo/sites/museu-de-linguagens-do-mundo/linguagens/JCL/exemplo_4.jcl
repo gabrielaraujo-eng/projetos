@@ -1,1 +1,0 @@
-//LOOPJOB JOB ... (JCL não tem loops nativos, usa utilitários)

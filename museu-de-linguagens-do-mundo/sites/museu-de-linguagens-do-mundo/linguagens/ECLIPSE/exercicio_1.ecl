@@ -1,1 +1,0 @@
-:- writeln('Nagato09-dev').

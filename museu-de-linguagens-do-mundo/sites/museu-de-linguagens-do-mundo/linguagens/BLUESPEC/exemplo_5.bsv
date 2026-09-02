@@ -1,1 +1,0 @@
-function Int#(32) square(Int#(32) n) = n * n;

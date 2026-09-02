@@ -1,1 +1,0 @@
-s.to_lower()

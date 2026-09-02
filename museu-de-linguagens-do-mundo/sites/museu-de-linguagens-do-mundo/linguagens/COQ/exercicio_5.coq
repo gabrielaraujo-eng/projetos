@@ -1,1 +1,0 @@
-Definition add (a b : nat) := a + b.

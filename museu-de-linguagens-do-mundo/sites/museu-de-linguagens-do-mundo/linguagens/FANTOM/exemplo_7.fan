@@ -1,1 +1,0 @@
-try { throw Err("Erro") } catch (Err e) { echo(e.msg) }

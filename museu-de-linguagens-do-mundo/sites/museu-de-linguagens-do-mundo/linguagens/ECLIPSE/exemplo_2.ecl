@@ -1,1 +1,0 @@
-exemplo2 :- Idade = 25, Nome = 'ECLiPSe', printf("%w tem %d anos\n", [Nome, Idade]).

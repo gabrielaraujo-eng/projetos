@@ -1,1 +1,0 @@
-const server = Bun.serve({ fetch() { } });

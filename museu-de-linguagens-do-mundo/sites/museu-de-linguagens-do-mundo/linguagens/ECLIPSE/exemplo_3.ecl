@@ -1,1 +1,0 @@
-check(X) :- (X > 0 -> writeln('Positivo') ; writeln('Negativo')).

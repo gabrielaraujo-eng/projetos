@@ -1,1 +1,0 @@
-for i in 1..5 repeat stdout << i;

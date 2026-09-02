@@ -1,1 +1,0 @@
-echo %sh{ echo "kakoune" | tr '[:lower:]' '[:upper:]' }

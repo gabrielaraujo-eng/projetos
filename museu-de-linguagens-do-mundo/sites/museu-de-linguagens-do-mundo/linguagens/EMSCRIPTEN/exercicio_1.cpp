@@ -1,1 +1,0 @@
-printf("Nagato09-dev");

@@ -1,1 +1,0 @@
-if (x > 10) "Maior\n"; else "Menor\n";

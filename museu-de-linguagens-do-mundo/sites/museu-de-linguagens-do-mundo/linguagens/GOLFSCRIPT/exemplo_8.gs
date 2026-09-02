@@ -1,1 +1,0 @@
-"golfscript" { 32 - } % n

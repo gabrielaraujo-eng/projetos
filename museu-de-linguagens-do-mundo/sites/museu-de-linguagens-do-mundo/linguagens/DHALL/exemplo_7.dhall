@@ -1,1 +1,0 @@
--- Dhall é total e não tem erros de runtime

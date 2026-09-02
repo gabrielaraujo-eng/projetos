@@ -1,1 +1,0 @@
-(dotimes [i 5] (println i))

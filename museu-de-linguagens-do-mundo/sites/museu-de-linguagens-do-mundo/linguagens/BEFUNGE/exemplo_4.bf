@@ -1,1 +1,0 @@
-// Sintaxe para loop em BEFUNGE

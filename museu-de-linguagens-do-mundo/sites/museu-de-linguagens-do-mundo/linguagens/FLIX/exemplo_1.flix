@@ -1,1 +1,0 @@
-def main(): Unit = println("Olá Mundo")

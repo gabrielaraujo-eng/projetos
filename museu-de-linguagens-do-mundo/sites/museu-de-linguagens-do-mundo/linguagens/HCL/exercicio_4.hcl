@@ -1,1 +1,0 @@
-countdown = reverse(range(1, 11))

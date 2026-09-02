@@ -1,1 +1,0 @@
-loop :- for(I, 0, 4) do writeln(I).

@@ -1,1 +1,0 @@
-result = x > 0 ? "Positivo" : "Negativo"

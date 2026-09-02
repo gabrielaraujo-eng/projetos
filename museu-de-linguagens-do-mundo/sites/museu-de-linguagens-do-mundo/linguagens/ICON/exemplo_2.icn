@@ -1,5 +1,0 @@
-procedure main()
-  idade := 25
-  nome := "Icon"
-  write(nome || " tem " || idade || " anos")
-end

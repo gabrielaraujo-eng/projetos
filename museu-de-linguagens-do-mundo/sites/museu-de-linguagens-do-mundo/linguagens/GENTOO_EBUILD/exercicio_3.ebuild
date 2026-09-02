@@ -1,1 +1,0 @@
-if [[ $((N % 2)) -eq 0 ]]; then einfo "Par"; fi

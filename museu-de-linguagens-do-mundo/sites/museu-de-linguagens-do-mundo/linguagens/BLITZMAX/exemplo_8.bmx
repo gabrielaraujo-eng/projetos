@@ -1,1 +1,0 @@
-Local full:String = "Olá" + " Mundo"

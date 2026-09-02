@@ -1,1 +1,0 @@
-soma := method(a, b, a + b)

@@ -1,1 +1,0 @@
-float r = sqrtf(16.0f);

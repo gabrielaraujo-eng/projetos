@@ -1,1 +1,0 @@
-local list = set(1, 2, 3);

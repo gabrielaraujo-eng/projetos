@@ -1,1 +1,0 @@
-The player has a number called age. The age of the player is 25. The player has some text called the real name. The real name of the player is "Inform 7".

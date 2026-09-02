@@ -1,1 +1,0 @@
-(pcall #(error "Erro Fennel"))

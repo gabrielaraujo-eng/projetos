@@ -1,1 +1,0 @@
-print("duktape".split("").reverse().join(""));

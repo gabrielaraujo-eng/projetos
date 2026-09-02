@@ -1,1 +1,0 @@
-(define (soma a b) (+ a b))

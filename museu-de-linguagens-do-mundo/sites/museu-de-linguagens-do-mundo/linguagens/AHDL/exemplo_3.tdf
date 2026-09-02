@@ -1,5 +1,0 @@
-IF x == VCC THEN
-  y = GND;
-ELSE
-  y = VCC;
-END IF;

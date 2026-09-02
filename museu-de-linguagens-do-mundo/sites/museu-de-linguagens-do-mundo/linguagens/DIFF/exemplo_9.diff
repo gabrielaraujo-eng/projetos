@@ -1,5 +1,0 @@
---- a/math.txt
-+++ b/math.txt
-@@ -1 +1 @@
--16
-+sqrt(16) = 4

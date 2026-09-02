@@ -1,1 +1,0 @@
-const novaLista = [...lista, 3];

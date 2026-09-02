@@ -1,3 +1,0 @@
-<condition property="isGreater">
-  <gt arg1="${x}" arg2="10"/>
-</condition>

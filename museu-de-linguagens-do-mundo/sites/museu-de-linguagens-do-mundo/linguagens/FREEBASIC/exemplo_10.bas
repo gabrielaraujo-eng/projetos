@@ -1,1 +1,0 @@
-Shell "sort list.txt"

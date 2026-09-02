@@ -1,1 +1,0 @@
-AScan(aLista, 2) > 0

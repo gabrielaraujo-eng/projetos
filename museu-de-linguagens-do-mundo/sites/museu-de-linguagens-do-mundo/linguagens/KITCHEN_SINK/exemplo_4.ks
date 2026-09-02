@@ -1,1 +1,0 @@
-FOR i 0 4 PRINT i

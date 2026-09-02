@@ -1,1 +1,0 @@
-let r = Math.sqrt(16)

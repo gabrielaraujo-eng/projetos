@@ -1,1 +1,0 @@
-Say "Nagato09-dev".

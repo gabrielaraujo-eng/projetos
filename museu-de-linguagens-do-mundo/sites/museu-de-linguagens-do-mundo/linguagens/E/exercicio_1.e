@@ -1,1 +1,0 @@
-PROC main() WriteF('Nagato09-dev\n') ENDPROC

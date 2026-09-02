@@ -1,1 +1,0 @@
-OUTPUT(SQRT(16));

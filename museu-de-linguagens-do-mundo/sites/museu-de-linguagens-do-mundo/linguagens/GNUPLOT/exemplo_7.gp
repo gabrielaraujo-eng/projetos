@@ -1,1 +1,0 @@
-// Gnuplot trata erros via mensagens de console

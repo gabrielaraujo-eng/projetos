@@ -1,1 +1,0 @@
-for i in {10..1}; do einfo ${i}; done

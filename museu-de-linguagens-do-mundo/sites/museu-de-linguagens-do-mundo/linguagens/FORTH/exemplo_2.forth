@@ -1,1 +1,0 @@
-VARIABLE X 42 X !

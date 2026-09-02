@@ -1,2 +1,0 @@
-<!-- MARKDOWN - Matemática - Operações aritméticas básicas. -->
-<div>Matemática - Operações aritméticas básicas.</div>

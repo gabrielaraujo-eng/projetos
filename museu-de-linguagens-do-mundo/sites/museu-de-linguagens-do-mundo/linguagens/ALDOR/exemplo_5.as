@@ -1,1 +1,0 @@
-soma(a: Integer, b: Integer): Integer == a + b;

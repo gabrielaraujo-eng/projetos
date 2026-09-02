@@ -1,3 +1,0 @@
-(global variable $Idade 25)
-(intro)
-    O valor da idade é [show $Idade].

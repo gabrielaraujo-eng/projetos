@@ -1,1 +1,0 @@
-if (x > 0) { color = float3(1, 0, 0); }

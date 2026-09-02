@@ -1,1 +1,0 @@
-pred isPositive [x: Int] { x > 0 }

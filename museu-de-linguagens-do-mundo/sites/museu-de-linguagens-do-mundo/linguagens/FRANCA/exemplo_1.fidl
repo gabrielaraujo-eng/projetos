@@ -1,4 +1,0 @@
-package org.example
-interface HelloWorld {
-  method sayHello { out { message : String } }
-}

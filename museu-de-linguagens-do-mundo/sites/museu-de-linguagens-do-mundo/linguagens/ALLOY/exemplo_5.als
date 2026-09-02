@@ -1,1 +1,0 @@
-fun add [a, b: Int]: Int { a + b }

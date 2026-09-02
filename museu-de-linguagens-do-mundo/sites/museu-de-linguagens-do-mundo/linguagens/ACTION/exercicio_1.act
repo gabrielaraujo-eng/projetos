@@ -1,1 +1,0 @@
-PROC Main() PrintE("Hello") RETURN

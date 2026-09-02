@@ -1,1 +1,0 @@
-echo("Nagato09-dev")

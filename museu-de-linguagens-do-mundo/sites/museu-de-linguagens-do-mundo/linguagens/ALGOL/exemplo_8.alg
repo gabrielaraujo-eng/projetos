@@ -1,1 +1,0 @@
-STRING s; s := "Olá Mundo";

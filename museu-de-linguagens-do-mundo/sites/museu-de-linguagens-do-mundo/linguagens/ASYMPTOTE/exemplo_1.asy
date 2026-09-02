@@ -1,1 +1,0 @@
-label("Olá Mundo", (0,0));

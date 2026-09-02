@@ -1,1 +1,0 @@
-fprintf (stdout, "Nagato09-dev");

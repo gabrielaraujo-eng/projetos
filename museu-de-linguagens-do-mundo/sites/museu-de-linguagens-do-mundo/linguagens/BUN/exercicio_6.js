@@ -1,1 +1,0 @@
-const file = Bun.file("test.txt");

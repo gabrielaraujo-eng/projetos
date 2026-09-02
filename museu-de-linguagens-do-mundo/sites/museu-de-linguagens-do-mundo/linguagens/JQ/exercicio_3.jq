@@ -1,1 +1,0 @@
-if .n % 2 == 0 then "Par" else empty end

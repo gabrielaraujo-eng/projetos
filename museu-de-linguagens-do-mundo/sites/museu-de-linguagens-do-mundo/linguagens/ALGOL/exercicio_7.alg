@@ -1,1 +1,0 @@
-IF x < 0 THEN ERROR;

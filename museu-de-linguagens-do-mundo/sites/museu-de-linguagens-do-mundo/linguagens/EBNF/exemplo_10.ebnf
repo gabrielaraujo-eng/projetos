@@ -1,2 +1,0 @@
-grammar = { rule } ;
-rule = lhs , "=" , rhs , ";" ;

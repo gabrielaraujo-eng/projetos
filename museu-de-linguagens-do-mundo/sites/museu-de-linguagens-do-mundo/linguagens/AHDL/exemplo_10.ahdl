@@ -1,3 +1,0 @@
-CASE state IS
-  WHEN 0 => next = 1;
-END CASE;

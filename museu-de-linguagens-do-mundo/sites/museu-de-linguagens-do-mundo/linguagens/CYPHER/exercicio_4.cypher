@@ -1,1 +1,0 @@
-FOREACH (i IN list | CREATE (:Node {val: i}))

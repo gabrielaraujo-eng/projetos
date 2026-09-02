@@ -1,1 +1,0 @@
-Integer square(Integer n) => n * n;

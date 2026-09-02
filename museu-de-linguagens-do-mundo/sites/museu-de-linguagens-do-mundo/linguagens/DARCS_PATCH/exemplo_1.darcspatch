@@ -1,3 +1,0 @@
-addfile ./hello.txt
-hunk ./hello.txt 1
-+Olá Mundo

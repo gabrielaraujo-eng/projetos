@@ -1,7 +1,0 @@
-var numero = 10;
-var texto = "ChaiScript String";
-var booleano = true;
-
-print("Número: " + numero);
-print("Texto: " + texto);
-print("Booleano: " + booleano);

@@ -1,3 +1,0 @@
-var texto = "chaiscript language";
-print("Original: " + texto);
-print("Maiúsculas: " + texto.toUpper());

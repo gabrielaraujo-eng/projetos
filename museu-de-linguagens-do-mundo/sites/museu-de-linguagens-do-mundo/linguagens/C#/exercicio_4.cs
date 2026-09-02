@@ -1,1 +1,0 @@
-foreach(var i in list) { }

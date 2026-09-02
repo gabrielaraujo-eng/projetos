@@ -1,1 +1,0 @@
-$ ! Inverter string em DCL requer loop

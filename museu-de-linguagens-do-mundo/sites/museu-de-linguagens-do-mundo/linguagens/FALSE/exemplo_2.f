@@ -1,1 +1,0 @@
-25 i: "FALSE" n: i; @ " tem " n; @ " anos"

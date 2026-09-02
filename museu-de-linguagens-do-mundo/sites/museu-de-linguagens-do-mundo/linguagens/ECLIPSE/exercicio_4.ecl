@@ -1,1 +1,0 @@
-countdown :- for(I, 10, 1, -1) do writeln(I).

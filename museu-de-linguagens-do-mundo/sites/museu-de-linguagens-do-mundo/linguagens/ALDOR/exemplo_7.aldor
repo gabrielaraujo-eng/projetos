@@ -1,1 +1,0 @@
-try { x := 1/0 } catch { stdout << "Erro" }

@@ -1,1 +1,0 @@
-local full = fmt("Olá %s", name);

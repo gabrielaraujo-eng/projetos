@@ -1,1 +1,0 @@
-cilk_spawn soma(a, b);

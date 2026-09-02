@@ -1,1 +1,0 @@
--- Sintaxe para func em BATCHFILE

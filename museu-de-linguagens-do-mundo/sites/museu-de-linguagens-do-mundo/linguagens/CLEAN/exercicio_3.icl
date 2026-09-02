@@ -1,1 +1,0 @@
-case val of 1 -> "Um"

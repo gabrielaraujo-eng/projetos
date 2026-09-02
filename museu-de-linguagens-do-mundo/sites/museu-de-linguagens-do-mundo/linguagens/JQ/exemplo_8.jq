@@ -1,1 +1,0 @@
-"jq" | ascii_upcase

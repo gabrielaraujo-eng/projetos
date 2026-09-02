@@ -1,1 +1,0 @@
-template <typename T> class Box { T val; };

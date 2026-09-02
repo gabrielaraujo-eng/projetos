@@ -1,1 +1,0 @@
-upperCaseString = "hyphy"^{{"a-z","A-Z"}};

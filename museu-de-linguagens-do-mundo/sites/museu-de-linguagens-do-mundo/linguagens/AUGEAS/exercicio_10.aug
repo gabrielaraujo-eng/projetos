@@ -1,1 +1,0 @@
-test lens get "a" = { "a" }

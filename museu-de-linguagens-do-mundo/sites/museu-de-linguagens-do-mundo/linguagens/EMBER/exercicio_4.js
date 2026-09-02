@@ -1,1 +1,0 @@
-{{#each (range 10 1) as |i|}}{{i}}{{/each}}

@@ -1,2 +1,0 @@
-; Defina um cabeçalho HTTP
-header = field-name ":" [ field-value ]

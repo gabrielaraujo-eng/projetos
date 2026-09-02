@@ -1,1 +1,0 @@
-fn square(x) { x * x }

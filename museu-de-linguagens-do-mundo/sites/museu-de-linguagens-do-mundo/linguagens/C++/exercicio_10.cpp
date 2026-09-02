@@ -1,1 +1,0 @@
-std::ifstream file("t.txt");

@@ -1,1 +1,0 @@
-extern fun my_func (): void

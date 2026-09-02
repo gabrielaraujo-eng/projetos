@@ -1,1 +1,0 @@
-string(TOLOWER ${s} res)

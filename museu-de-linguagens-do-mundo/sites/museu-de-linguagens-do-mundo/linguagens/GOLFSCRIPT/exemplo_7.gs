@@ -1,1 +1,0 @@
-// GolfScript não tem try-catch

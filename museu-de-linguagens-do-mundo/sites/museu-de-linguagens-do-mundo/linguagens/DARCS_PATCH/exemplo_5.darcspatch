@@ -1,3 +1,0 @@
-hunk ./code.hs 10
--soma a b = a - b
-+soma a b = a + b

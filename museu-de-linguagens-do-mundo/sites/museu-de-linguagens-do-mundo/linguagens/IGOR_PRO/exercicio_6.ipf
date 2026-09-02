@@ -1,1 +1,0 @@
-InsertPoints 3, 1, lista; lista[3] = 10

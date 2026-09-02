@@ -1,1 +1,0 @@
-find(lista, 2)

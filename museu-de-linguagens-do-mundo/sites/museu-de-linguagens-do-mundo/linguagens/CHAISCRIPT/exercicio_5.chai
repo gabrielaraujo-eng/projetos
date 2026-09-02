@@ -1,5 +1,0 @@
-fun multiplicar(x, y) {
-    return x * y;
-}
-
-print("Produto: " + multiplicar(6, 4));

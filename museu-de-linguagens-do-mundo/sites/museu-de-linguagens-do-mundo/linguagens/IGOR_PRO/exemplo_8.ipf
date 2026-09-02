@@ -1,1 +1,0 @@
-UpperStr("igor pro")

@@ -1,1 +1,0 @@
-(* Coq usa recursão fixa para loops *)

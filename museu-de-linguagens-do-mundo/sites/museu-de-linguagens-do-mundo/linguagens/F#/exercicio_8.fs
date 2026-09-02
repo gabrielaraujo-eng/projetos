@@ -1,1 +1,0 @@
-new string("f#" |> Seq.rev |> Seq.toArray)

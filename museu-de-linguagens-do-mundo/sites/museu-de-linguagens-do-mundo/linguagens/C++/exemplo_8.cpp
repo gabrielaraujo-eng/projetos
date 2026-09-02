@@ -1,1 +1,0 @@
-std::string full = "Olá " + name;

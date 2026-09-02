@@ -1,1 +1,0 @@
-val full = string_append ("Olá", " Mundo")

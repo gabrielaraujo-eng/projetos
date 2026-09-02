@@ -1,3 +1,0 @@
-IF x > y THEN
-  PrintE("X é maior")
-FI

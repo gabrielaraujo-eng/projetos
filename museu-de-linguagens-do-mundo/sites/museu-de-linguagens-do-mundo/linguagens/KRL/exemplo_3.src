@@ -1,5 +1,0 @@
-IF x > 0 THEN
-  MsgNotify("Positivo")
-ELSE
-  MsgNotify("Negativo")
-ENDIF

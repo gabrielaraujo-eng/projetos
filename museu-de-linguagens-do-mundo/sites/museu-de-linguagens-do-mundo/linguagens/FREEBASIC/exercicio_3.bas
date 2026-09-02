@@ -1,1 +1,0 @@
-If n Mod 2 = 0 Then Print "Par"

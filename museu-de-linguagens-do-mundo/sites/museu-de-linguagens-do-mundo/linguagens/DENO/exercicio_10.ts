@@ -1,1 +1,0 @@
-lista.includes(2)

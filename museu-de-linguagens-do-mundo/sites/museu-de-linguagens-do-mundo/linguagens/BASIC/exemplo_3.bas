@@ -1,1 +1,0 @@
-10 IF X > 10 THEN PRINT "Maior" ELSE PRINT "Menor"

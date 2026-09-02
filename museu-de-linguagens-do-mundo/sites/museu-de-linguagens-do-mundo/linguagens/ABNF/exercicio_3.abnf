@@ -1,2 +1,0 @@
-; Defina um booleano
-bool = "true" / "false"

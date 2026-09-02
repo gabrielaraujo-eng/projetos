@@ -1,1 +1,0 @@
-say "Olá, Mundo!";
