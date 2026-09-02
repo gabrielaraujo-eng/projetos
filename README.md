@@ -25,7 +25,7 @@ projetos/
     ├── prime-calculator/             # Willans e polinômio de Euler
     ├── museu-de-linguagens-do-mundo/ # museu de linguagens de programação
     ├── math-dictionary-haskell/      # dicionário matemático em Haskell
-    └── gabriel-hypotenuse-calc/      # calculadora de hipotenusa em React
+    └── gabriel-hypotenuse-calc/      # calculadora de hipotenusa METODO NOVO
 ```
 
 ## Projetos em detalhe
