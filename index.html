@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfólio de projetos de Gabriel Lúcio de Araújo." />
+  <title>Projetos | Gabriel Lúcio de Araújo</title>
+  <style>
+    :root { color-scheme: dark; --bg:#08111f; --panel:#101d31; --line:#263954; --text:#f4f7fb; --muted:#a8b6c9; --accent:#67e8f9; --accent2:#a78bfa; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Inter, ui-sans-serif, system-ui, -apple-system, sans-serif; color:var(--text); background:radial-gradient(circle at 15% 0%, #172b50, transparent 38%), var(--bg); line-height:1.6; }
+    a { color:inherit; text-decoration:none; }
+    .wrap { width:min(1120px, calc(100% - 40px)); margin:auto; }
+    header { padding:72px 0 44px; }
+    .eyebrow { color:var(--accent); font-weight:700; letter-spacing:.14em; text-transform:uppercase; font-size:.78rem; }
+    h1 { max-width:760px; font-size:clamp(2.4rem, 7vw, 5.4rem); line-height:1.02; margin:16px 0; letter-spacing:-.06em; }
+    .intro { color:var(--muted); max-width:720px; font-size:1.12rem; }
+    .actions { display:flex; gap:12px; flex-wrap:wrap; margin-top:28px; }
+    .button { display:inline-block; border:1px solid var(--line); border-radius:999px; padding:10px 17px; color:var(--text); background:#12223a; transition:.2s ease; }
+    .button:hover { transform:translateY(-2px); border-color:var(--accent); color:var(--accent); }
+    .button.primary { background:linear-gradient(100deg, #155e75, #4c1d95); border-color:transparent; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(280px,1fr)); gap:18px; padding:18px 0 72px; }
+    .card { display:flex; flex-direction:column; min-height:300px; padding:24px; border:1px solid var(--line); border-radius:22px; background:linear-gradient(150deg, rgba(19,35,60,.96), rgba(10,20,36,.96)); box-shadow:0 18px 50px rgba(0,0,0,.16); }
+    .number { color:var(--accent2); font-weight:800; font-size:.85rem; }
+    h2 { margin:12px 0 8px; font-size:1.45rem; }
+    .card p { color:var(--muted); margin:0 0 18px; }
+    .tags { display:flex; flex-wrap:wrap; gap:7px; margin-top:auto; margin-bottom:20px; }
+    .tag { color:#dbeafe; background:#1a2b46; border-radius:7px; padding:4px 8px; font-size:.78rem; }
+    .card-links { display:flex; gap:10px; flex-wrap:wrap; }
+    footer { border-top:1px solid var(--line); padding:26px 0 40px; color:var(--muted); font-size:.92rem; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <div class="eyebrow">Portfólio de desenvolvimento</div>
+      <h1>Projetos que transformam ideias em experiências.</h1>
+      <p class="intro">Cinco projetos independentes reunidos em um só lugar: matemática interativa, linguagens de programação, Haskell, Python e aplicações web modernas.</p>
+      <div class="actions"><a class="button primary" href="https://github.com/gabrielaraujo-eng/projetos">Ver no GitHub</a><a class="button" href="README.md">Ler documentação</a></div>
+    </header>
+    <section class="grid" aria-label="Projetos">
+      <article class="card"><span class="number">01 / WEB</span><h2>Math Formulas Site</h2><p>Site visual e interativo com fórmulas matemáticas e calculadora de números primos.</p><div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div><div class="card-links"><a class="button" href="sites/math-formulas-site/index.html">Abrir local</a><a class="button" href="https://github.com/Nagato09-dev/math-formulas-site">Código</a></div></article>
+      <article class="card"><span class="number">02 / PYTHON</span><h2>Prime Calculator</h2><p>Estudo computacional de números primos usando a Fórmula de Willans e o Polinômio de Euler.</p><div class="tags"><span class="tag">Python</span><span class="tag">Matemática</span></div><div class="card-links"><a class="button" href="sites/prime-calculator/README.md">Documentação</a><a class="button" href="https://github.com/Nagato09-dev/prime-calculator">Código</a></div></article>
+      <article class="card"><span class="number">03 / CULTURA</span><h2>Museu de Linguagens</h2><p>Experiência informativa para conhecer linguagens de programação em um museu digital.</p><div class="tags"><span class="tag">HTML</span><span class="tag">JavaScript</span></div><div class="card-links"><a class="button" href="https://nagato09-dev.github.io/museu-de-linguagens-do-mundo/">Visitar site</a><a class="button" href="https://github.com/Nagato09-dev/museu-de-linguagens-do-mundo">Código</a></div></article>
+      <article class="card"><span class="number">04 / FUNCIONAL</span><h2>Math Dictionary Haskell</h2><p>Dicionário matemático em terminal com módulos de álgebra, geometria e estatística.</p><div class="tags"><span class="tag">Haskell</span><span class="tag">Cabal</span></div><div class="card-links"><a class="button" href="sites/math-dictionary-haskell/README.md">Documentação</a><a class="button" href="https://github.com/Nagato09-dev/math-dictionary-haskell">Código</a></div></article>
+      <article class="card"><span class="number">05 / REACT</span><h2>Calculadora de Hipotenusa</h2><p>Aplicação interativa em React e TypeScript para calcular a hipotenusa de um triângulo.</p><div class="tags"><span class="tag">React</span><span class="tag">TypeScript</span><span class="tag">Vite</span></div><div class="card-links"><a class="button" href="https://nagato09-dev.github.io/gabriel-hypotenuse-calc/">Visitar site</a><a class="button" href="https://github.com/Nagato09-dev/gabriel-hypotenuse-calc">Código</a></div></article>
+    </section>
+  </main>
+  <footer><div class="wrap">Desenvolvido por <a href="https://github.com/gabrielaraujo-eng">Gabriel Lúcio de Araújo</a>. Cada cartão representa um projeto independente.</div></footer>
+</body>
+</html>
