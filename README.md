@@ -2,17 +2,17 @@
 
 Coleção dos cinco projetos selecionados do perfil [Nagato09-dev](https://github.com/Nagato09-dev), reunidos em um único repositório para facilitar a navegação, a apresentação e a consulta dos códigos.
 
-Cada projeto continua independente dentro de [`sites/`](./sites/). Eles não são misturados: cada pasta representa uma aplicação ou estudo diferente, com seus próprios arquivos, tecnologias e instruções.
+Cada projeto continua independente dentro de [`sites/`](./sites/). Eles não são misturados: cada pasta representa uma aplicação ou estudo diferente, com seus próprios arquivos, tecnologias e instruções. As cinco entradas também possuem uma página local ou uma vitrine compatível com o GitHub Pages.
 
 ## Portfólio rápido
 
 | Projeto | Tipo | Tecnologias | Demonstração |
 | --- | --- | --- | --- |
-| [Math Formulas Site](./sites/math-formulas-site/) | Site interativo de matemática | HTML, CSS e JavaScript | [Código](https://github.com/Nagato09-dev/math-formulas-site) |
-| [Prime Calculator](./sites/prime-calculator/) | Calculadoras matemáticas | Python | [Código](https://github.com/Nagato09-dev/prime-calculator) |
-| [Museu de Linguagens do Mundo](./sites/museu-de-linguagens-do-mundo/) | Site informativo | HTML e JavaScript | [Abrir site](https://nagato09-dev.github.io/museu-de-linguagens-do-mundo/) |
-| [Math Dictionary Haskell](./sites/math-dictionary-haskell/) | Aplicação de terminal | Haskell | [Código](https://github.com/Nagato09-dev/math-dictionary-haskell) |
-| [Calculadora de Hipotenusa](./sites/gabriel-hypotenuse-calc/) | Aplicação web interativa | React, TypeScript, Vite e CSS | [Abrir site](https://nagato09-dev.github.io/gabriel-hypotenuse-calc/) |
+| [Math Formulas Site](./sites/math-formulas-site/) | Site interativo de matemática | HTML, CSS e JavaScript | [Código](https://github.com/gabrielaraujo-eng/projetos/tree/main/sites/math-formulas-site) |
+| [Prime Calculator](./sites/prime-calculator/) | Calculadoras matemáticas | Python | [Código](https://github.com/gabrielaraujo-eng/projetos/tree/main/sites/prime-calculator) |
+| [Museu de Linguagens do Mundo](./sites/museu-de-linguagens-do-mundo/) | Site informativo | HTML e JavaScript | [Abrir página](https://gabrielaraujo-eng.github.io/projetos/sites/museu-de-linguagens-do-mundo/) |
+| [Math Dictionary Haskell](./sites/math-dictionary-haskell/) | Aplicação de terminal | Haskell | [Código](https://github.com/gabrielaraujo-eng/projetos/tree/main/sites/math-dictionary-haskell) |
+| [Calculadora de Hipotenusa](./sites/gabriel-hypotenuse-calc/) | Aplicação web interativa | React, TypeScript, Vite e CSS | [Abrir página](https://gabrielaraujo-eng.github.io/projetos/sites/gabriel-hypotenuse-calc/dist/) |
 
 ## Organização das pastas
 
@@ -25,7 +25,7 @@ projetos/
     ├── prime-calculator/             # Willans e polinômio de Euler
     ├── museu-de-linguagens-do-mundo/ # museu de linguagens de programação
     ├── math-dictionary-haskell/      # dicionário matemático em Haskell
-    └── gabriel-hypotenuse-calc/      # calculadora de hipotenusa METODO NOVO
+    └── gabriel-hypotenuse-calc/      # calculadora de hipotenusa em React
 ```
 
 ## Projetos em detalhe
@@ -69,7 +69,7 @@ pnpm run dev
 
 ## Como visualizar
 
-Para navegar pela vitrine, abra o [`index.html`](./index.html) no navegador. Para estudar um projeto específico, entre na respectiva pasta em `sites/` e leia o README local antes de executar os arquivos.
+Para navegar pela vitrine, abra o [`index.html`](./index.html) ou acesse o [GitHub Pages do repositório](https://gabrielaraujo-eng.github.io/projetos/). Cada projeto está disponível em uma pasta própria dentro de `sites/`; os projetos web abrem diretamente no navegador e os projetos de Python/Haskell possuem uma página de apresentação com links para o código e os comandos de execução.
 
 Sites estáticos podem ser executados com um servidor local simples:
 
