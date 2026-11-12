@@ -67,6 +67,10 @@ pnpm install
 pnpm run dev
 ```
 
+## Navegação rápida
+
+A página principal apresenta os cinco projetos e leva diretamente às demonstrações web e às páginas de consulta dos projetos em Python e Haskell.
+
 ## Como visualizar
 
 Para navegar pela vitrine, abra o [`index.html`](./index.html) ou acesse o [GitHub Pages do repositório](https://gabrielaraujo-eng.github.io/projetos/). Cada projeto está disponível em uma pasta própria dentro de `sites/`; os projetos web abrem diretamente no navegador e os projetos de Python/Haskell possuem uma página de apresentação com links para o código e os comandos de execução.
