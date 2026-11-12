@@ -171,6 +171,9 @@
         .language-card-header { display: flex; align-items: center; gap: 15px; margin-bottom: 15px; }
         .language-icon { font-size: 2.5em; }
         .language-card h3 { font-family: 'Orbitron', sans-serif; color: var(--primary-gold); }
+        .details-btn { margin-top: 10px; align-self: flex-start; border: 1px solid var(--primary-gold); border-radius: 20px; padding: 8px 14px; background: var(--secondary-gold); color: #17130a; cursor: pointer; font-weight: 700; }
+        .details-btn:hover { background: white; }
+        .details-link { display: inline-block; color: var(--secondary-gold); font-weight: 700; }
 
         .meta-tag {
             font-size: 0.7em;
@@ -207,9 +210,9 @@
         </header>
 
         <div class="stats">
-            <div class="stat"><h3>505+</h3><p>Linguagens</p></div>
-            <div class="stat"><h3>5.050+</h3><p>Exercícios</p></div>
-            <div class="stat"><h3>10.100+</h3><p>Arquivos</p></div>
+            <div class="stat"><h3>520</h3><p>Linguagens</p></div>
+            <div class="stat"><h3>5.200+</h3><p>Exercícios</p></div>
+            <div class="stat"><h3>10.400+</h3><p>Arquivos</p></div>
         </div>
 
         <div class="search-container">
@@ -217,15 +220,7 @@
             <input type="text" id="searchInput" placeholder="Buscar linguagem...">
         </div>
 
-        <div class="categories-menu">
-            <button class="category-btn active" data-category="all">🌍 Todas</button>
-            <button class="category-btn" data-category="web">🌐 Web</button>
-            <button class="category-btn" data-category="systems">⚙️ Sistêmicas</button>
-            <button class="category-btn" data-category="functional">🧮 Funcionais</button>
-            <button class="category-btn" data-category="database">🗄️ Dados</button>
-            <button class="category-btn" data-category="esoteric">🎭 Esotéricas</button>
-            <button class="category-btn" data-category="favorites">⭐ Favoritos</button>
-        </div>
+
 
         <div class="languages-grid" id="languagesGrid"></div>
     </div>
@@ -247,67 +242,3688 @@
         };
 
         const languagesData = [
-            { name: 'PYTHON', category: 'web', year: 1991 },
-            { name: 'JAVASCRIPT', category: 'web', year: 1995 },
-            { name: 'JAVA', category: 'systems', year: 1995 },
-            { name: 'RUST', category: 'systems', year: 2010 },
-            { name: 'HASKELL', category: 'functional', year: 1990 },
-            { name: 'BRAINFUCK', category: 'esoteric', year: 1993 },
-            { name: 'SQL', category: 'database', year: 1974 },
-            { name: 'C++', category: 'systems', year: 1985 },
-            { name: 'GO', category: 'systems', year: 2009 }
-        ];
-
-        // Simular 500 linguagens para preencher o grid
-        for(let i=0; i<496; i++) {
-            languagesData.push({ name: `LANG_${i}`, category: 'all', year: 2000 + (i % 24) });
-        }
-
-        function render(filter = 'all', search = '') {
+            {
+                        "name": "05AB1E",
+                        "folder": "05AB1E",
+                        "year": 2011,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "ABAP",
+                        "folder": "ABAP",
+                        "year": 1983,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "ABC",
+                        "folder": "ABC",
+                        "year": 1987,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "ABNF",
+                        "folder": "ABNF",
+                        "year": 1987,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "ACTION",
+                        "folder": "ACTION",
+                        "year": 1983,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "ACTIONSCRIPT",
+                        "folder": "ACTIONSCRIPT",
+                        "year": 1996,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "ADA",
+                        "folder": "ADA",
+                        "year": 1983,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "ADVPL",
+                        "folder": "ADVPL",
+                        "year": 1990,
+                        "examples": 15,
+                        "exercises": 10
+            },
+            {
+                        "name": "AGDA",
+                        "folder": "AGDA",
+                        "year": 2007,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "AHDL",
+                        "folder": "AHDL",
+                        "year": 1984,
+                        "examples": 20,
+                        "exercises": 20
+            },
+            {
+                        "name": "AHEUI",
+                        "folder": "AHEUI",
+                        "year": 2000,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "AIT",
+                        "folder": "AIT",
+                        "year": 1994,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "ALDOR",
+                        "folder": "ALDOR",
+                        "year": 1990,
+                        "examples": 20,
+                        "exercises": 20
+            },
+            {
+                        "name": "ALEMBIC",
+                        "folder": "ALEMBIC",
+                        "year": 2006,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "ALGOL",
+                        "folder": "ALGOL",
+                        "year": 1958,
+                        "examples": 20,
+                        "exercises": 20
+            },
+            {
+                        "name": "ALICE",
+                        "folder": "ALICE",
+                        "year": 1993,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "ALLOY",
+                        "folder": "ALLOY",
+                        "year": 2002,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "AMIGAE",
+                        "folder": "AMIGAE",
+                        "year": 1992,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "AMPL",
+                        "folder": "AMPL",
+                        "year": 1990,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "AMULET",
+                        "folder": "AMULET",
+                        "year": 2012,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "ANGELSCRIPT",
+                        "folder": "ANGELSCRIPT",
+                        "year": 2003,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "ANT",
+                        "folder": "ANT",
+                        "year": 2000,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "ANTLR",
+                        "folder": "ANTLR",
+                        "year": 1992,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "APACHECONF",
+                        "folder": "APACHECONF",
+                        "year": 1995,
+                        "examples": 20,
+                        "exercises": 20
+            },
+            {
+                        "name": "APEX",
+                        "folder": "APEX",
+                        "year": 2006,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "APL",
+                        "folder": "APL",
+                        "year": 1962,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "APPLESCRIPT",
+                        "folder": "APPLESCRIPT",
+                        "year": 1993,
+                        "examples": 20,
+                        "exercises": 20
+            },
+            {
+                        "name": "ARC",
+                        "folder": "ARC",
+                        "year": 2001,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "ARCANE",
+                        "folder": "ARCANE",
+                        "year": 2012,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "ARDUINO",
+                        "folder": "ARDUINO",
+                        "year": 2005,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "ASCIIDOC",
+                        "folder": "ASCIIDOC",
+                        "year": 2002,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "ASP",
+                        "folder": "ASP",
+                        "year": 1996,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "ASPECTJ",
+                        "folder": "ASPECTJ",
+                        "year": 2001,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "ASSEMBLY_X86",
+                        "folder": "ASSEMBLY_X86",
+                        "year": 1981,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "ASYMPTOTE",
+                        "folder": "ASYMPTOTE",
+                        "year": 2004,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "ATS",
+                        "folder": "ATS",
+                        "year": 2003,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "AUGEAS",
+                        "folder": "AUGEAS",
+                        "year": 2007,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "AUTOHOTKEY",
+                        "folder": "AUTOHOTKEY",
+                        "year": 2002,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "AUTOIT",
+                        "folder": "AUTOIT",
+                        "year": 1999,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "AUTOLISP",
+                        "folder": "AUTOLISP",
+                        "year": 1986,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "AWK",
+                        "folder": "AWK",
+                        "year": 1977,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "AXE",
+                        "folder": "AXE",
+                        "year": 2010,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "BALLERINA",
+                        "folder": "BALLERINA",
+                        "year": 2017,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "BASH",
+                        "folder": "BASH",
+                        "year": 1989,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "BASIC",
+                        "folder": "BASIC",
+                        "year": 1964,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "BATCHFILE",
+                        "folder": "BATCHFILE",
+                        "year": 1981,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "BATO",
+                        "folder": "BATO",
+                        "year": 2013,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "BC",
+                        "folder": "BC",
+                        "year": 1975,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "BEANSHELL",
+                        "folder": "BEANSHELL",
+                        "year": 1997,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "BEATNIK",
+                        "folder": "BEATNIK",
+                        "year": 2000,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "BEEF",
+                        "folder": "BEEF",
+                        "year": 2018,
+                        "examples": 20,
+                        "exercises": 20
+            },
+            {
+                        "name": "BEFUNGE",
+                        "folder": "BEFUNGE",
+                        "year": 1993,
+                        "examples": 20,
+                        "exercises": 20
+            },
+            {
+                        "name": "BIBTEX",
+                        "folder": "BIBTEX",
+                        "year": 1985,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "BIFROST",
+                        "folder": "BIFROST",
+                        "year": 2019,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "BISON",
+                        "folder": "BISON",
+                        "year": 1985,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "BIT",
+                        "folder": "BIT",
+                        "year": 2018,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "BITBAKE",
+                        "folder": "BITBAKE",
+                        "year": 2003,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "BLADE",
+                        "folder": "BLADE",
+                        "year": 2011,
+                        "examples": 10,
+                        "exercises": 20
+            },
+            {
+                        "name": "BLITZBASIC",
+                        "folder": "BLITZBASIC",
+                        "year": 2000,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "BLITZMAX",
+                        "folder": "BLITZMAX",
+                        "year": 2004,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "BLUESPEC",
+                        "folder": "BLUESPEC",
+                        "year": 2004,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "BOO",
+                        "folder": "BOO",
+                        "year": 2003,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "BQN",
+                        "folder": "BQN",
+                        "year": 2020,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "BRAINFUCK",
+                        "folder": "BRAINFUCK",
+                        "year": 1993,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "BRIGHTSCRIPT",
+                        "folder": "BRIGHTSCRIPT",
+                        "year": 2009,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "BRO",
+                        "folder": "BRO",
+                        "year": 2009,
+                        "examples": 20,
+                        "exercises": 20
+            },
+            {
+                        "name": "BUN",
+                        "folder": "BUN",
+                        "year": 2022,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "C",
+                        "folder": "C",
+                        "year": 1972,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "C#",
+                        "folder": "C#",
+                        "year": 2000,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "C++",
+                        "folder": "C++",
+                        "year": 1985,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "C2HS_HASKELL",
+                        "folder": "C2HS_HASKELL",
+                        "year": 2000,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "CAIRO",
+                        "folder": "CAIRO",
+                        "year": 2003,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "CALCIT",
+                        "folder": "CALCIT",
+                        "year": 2015,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "CAP_N_PROTO",
+                        "folder": "CAP_N_PROTO",
+                        "year": 2013,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "CARBON",
+                        "folder": "CARBON",
+                        "year": 2022,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "CARTOCSS",
+                        "folder": "CARTOCSS",
+                        "year": 2012,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "CEYLON",
+                        "folder": "CEYLON",
+                        "year": 2011,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "CHAISCRIPT",
+                        "folder": "CHAISCRIPT",
+                        "year": 2009,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "CHAPEL",
+                        "folder": "CHAPEL",
+                        "year": 2004,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "CHEF",
+                        "folder": "CHEF",
+                        "year": 2002,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "CHIALISP",
+                        "folder": "CHIALISP",
+                        "year": 2020,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "CHUCK",
+                        "folder": "CHUCK",
+                        "year": 2003,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "CILK",
+                        "folder": "CILK",
+                        "year": 1994,
+                        "examples": 20,
+                        "exercises": 20
+            },
+            {
+                        "name": "CIRCOM",
+                        "folder": "CIRCOM",
+                        "year": 2020,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "CIRRU",
+                        "folder": "CIRRU",
+                        "year": 2012,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "CJAM",
+                        "folder": "CJAM",
+                        "year": 2013,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "CLARION",
+                        "folder": "CLARION",
+                        "year": 1986,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "CLARO",
+                        "folder": "CLARO",
+                        "year": 2018,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "CLEAN",
+                        "folder": "CLEAN",
+                        "year": 1987,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "CLICK",
+                        "folder": "CLICK",
+                        "year": 2001,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "CLIO",
+                        "folder": "CLIO",
+                        "year": 2017,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "CLIPS",
+                        "folder": "CLIPS",
+                        "year": 1985,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "CLOJURE",
+                        "folder": "CLOJURE",
+                        "year": 2007,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "CLOJURESCRIPT",
+                        "folder": "CLOJURESCRIPT",
+                        "year": 2011,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "CMAKE",
+                        "folder": "CMAKE",
+                        "year": 2000,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "COBOL",
+                        "folder": "COBOL",
+                        "year": 1959,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "COBRA",
+                        "folder": "COBRA",
+                        "year": 2006,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "COCONUT",
+                        "folder": "COCONUT",
+                        "year": 2015,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "COFFEESCRIPT",
+                        "folder": "COFFEESCRIPT",
+                        "year": 2009,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "COGENT",
+                        "folder": "COGENT",
+                        "year": 2016,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "COLDFUSION",
+                        "folder": "COLDFUSION",
+                        "year": 1995,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "COMMONLISP",
+                        "folder": "COMMONLISP",
+                        "year": 1984,
+                        "examples": 20,
+                        "exercises": 20
+            },
+            {
+                        "name": "COMMON_LISP",
+                        "folder": "COMMON_LISP",
+                        "year": 1984,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "COMPLICE",
+                        "folder": "COMPLICE",
+                        "year": 2014,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "COMPONENT_PASCAL",
+                        "folder": "COMPONENT_PASCAL",
+                        "year": 1997,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "CONE",
+                        "folder": "CONE",
+                        "year": 2010,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "COOL",
+                        "folder": "COOL",
+                        "year": 1992,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "COQ",
+                        "folder": "COQ",
+                        "year": 1989,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "COQ_PROOF",
+                        "folder": "COQ_PROOF",
+                        "year": 1989,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "COZO",
+                        "folder": "COZO",
+                        "year": 2022,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "CPLUSPLUS",
+                        "folder": "CPLUSPLUS",
+                        "year": 1985,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "CRYSTAL",
+                        "folder": "CRYSTAL",
+                        "year": 2012,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "CSHARP",
+                        "folder": "CSHARP",
+                        "year": 2000,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "CSOUND",
+                        "folder": "CSOUND",
+                        "year": 1985,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "CSS",
+                        "folder": "CSS",
+                        "year": 1996,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "CUDA",
+                        "folder": "CUDA",
+                        "year": 2006,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "CUNEIFORM",
+                        "folder": "CUNEIFORM",
+                        "year": 2013,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "CURRY",
+                        "folder": "CURRY",
+                        "year": 2005,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "CYCLONE",
+                        "folder": "CYCLONE",
+                        "year": 2005,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "CYCRIPT",
+                        "folder": "CYCRIPT",
+                        "year": 2011,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "CYPHER",
+                        "folder": "CYPHER",
+                        "year": 2011,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "CYTHON",
+                        "folder": "CYTHON",
+                        "year": 2007,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "C_OBJDUMP",
+                        "folder": "C_OBJDUMP",
+                        "year": 1981,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "C_SHARP",
+                        "folder": "C_SHARP",
+                        "year": 2000,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "C_SHELL",
+                        "folder": "C_SHELL",
+                        "year": 1986,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "CÉU",
+                        "folder": "CÉU",
+                        "year": 2009,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "D",
+                        "folder": "D",
+                        "year": 2001,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "DAFNY",
+                        "folder": "DAFNY",
+                        "year": 2008,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "DALOG",
+                        "folder": "DALOG",
+                        "year": 2014,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "DARCS_PATCH",
+                        "folder": "DARCS_PATCH",
+                        "year": 2003,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "DART",
+                        "folder": "DART",
+                        "year": 2011,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "DATALOG",
+                        "folder": "DATALOG",
+                        "year": 1978,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "DENO",
+                        "folder": "DENO",
+                        "year": 2018,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "DHALL",
+                        "folder": "DHALL",
+                        "year": 2016,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "DIFF",
+                        "folder": "DIFF",
+                        "year": 1974,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "DIGITAL_COMMAND_LANGUAGE",
+                        "folder": "DIGITAL_COMMAND_LANGUAGE",
+                        "year": 1980,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "DM",
+                        "folder": "DM",
+                        "year": 1997,
+                        "examples": 11,
+                        "exercises": 10
+            },
+            {
+                        "name": "DNS_ZONE",
+                        "folder": "DNS_ZONE",
+                        "year": 1987,
+                        "examples": 11,
+                        "exercises": 10
+            },
+            {
+                        "name": "DOCKERFILE",
+                        "folder": "DOCKERFILE",
+                        "year": 2013,
+                        "examples": 20,
+                        "exercises": 20
+            },
+            {
+                        "name": "DOGESCRIPT",
+                        "folder": "DOGESCRIPT",
+                        "year": 2013,
+                        "examples": 20,
+                        "exercises": 20
+            },
+            {
+                        "name": "DOJO",
+                        "folder": "DOJO",
+                        "year": 2005,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "DRACO",
+                        "folder": "DRACO",
+                        "year": 1988,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "DTRACE",
+                        "folder": "DTRACE",
+                        "year": 2003,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "DUKTAPE",
+                        "folder": "DUKTAPE",
+                        "year": 2013,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "DUST",
+                        "folder": "DUST",
+                        "year": 2016,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "DYALOG",
+                        "folder": "DYALOG",
+                        "year": 1980,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "DYLAN",
+                        "folder": "DYLAN",
+                        "year": 1992,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "D_OBJDUMP",
+                        "folder": "D_OBJDUMP",
+                        "year": 2001,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "E",
+                        "folder": "E",
+                        "year": 1997,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "EAGLE",
+                        "folder": "EAGLE",
+                        "year": 1988,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "EBNF",
+                        "folder": "EBNF",
+                        "year": 1977,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "ECL",
+                        "folder": "ECL",
+                        "year": 1999,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "ECLIPSE",
+                        "folder": "ECLIPSE",
+                        "year": 2001,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "EDGEQL",
+                        "folder": "EDGEQL",
+                        "year": 2018,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "EIFFEL",
+                        "folder": "EIFFEL",
+                        "year": 1986,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "EJS",
+                        "folder": "EJS",
+                        "year": 2014,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "ELAN",
+                        "folder": "ELAN",
+                        "year": 1984,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "ELASTI",
+                        "folder": "ELASTI",
+                        "year": 2010,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "ELIXIR",
+                        "folder": "ELIXIR",
+                        "year": 2011,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "ELM",
+                        "folder": "ELM",
+                        "year": 2012,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "EMACSLISP",
+                        "folder": "EMACSLISP",
+                        "year": 1985,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "EMACS_LISP",
+                        "folder": "EMACS_LISP",
+                        "year": 1985,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "EMBER",
+                        "folder": "EMBER",
+                        "year": 2011,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "EMBERSCRIPT",
+                        "folder": "EMBERSCRIPT",
+                        "year": 2013,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "EMOTICON",
+                        "folder": "EMOTICON",
+                        "year": 2008,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "EMSCRIPTEN",
+                        "folder": "EMSCRIPTEN",
+                        "year": 2010,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "ENCORE",
+                        "folder": "ENCORE",
+                        "year": 2010,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "ENYA",
+                        "folder": "ENYA",
+                        "year": 2013,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "EQ",
+                        "folder": "EQ",
+                        "year": 2013,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "ERLANG",
+                        "folder": "ERLANG",
+                        "year": 1986,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "EUPHORIA",
+                        "folder": "EUPHORIA",
+                        "year": 1993,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "EXCEL",
+                        "folder": "EXCEL",
+                        "year": 1985,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "F#",
+                        "folder": "F#",
+                        "year": 2005,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "FACTOR",
+                        "folder": "FACTOR",
+                        "year": 2003,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "FALCON",
+                        "folder": "FALCON",
+                        "year": 2003,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "FALSE",
+                        "folder": "FALSE",
+                        "year": 1993,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "FANCY",
+                        "folder": "FANCY",
+                        "year": 2010,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "FANTOM",
+                        "folder": "FANTOM",
+                        "year": 2005,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "FENNEL",
+                        "folder": "FENNEL",
+                        "year": 2016,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "FERRET",
+                        "folder": "FERRET",
+                        "year": 2013,
+                        "examples": 0,
+                        "exercises": 0
+            },
+            {
+                        "name": "FICL",
+                        "folder": "FICL",
+                        "year": 1997,
+                        "examples": 20,
+                        "exercises": 20
+            },
+            {
+                        "name": "FIDLAR",
+                        "folder": "FIDLAR",
+                        "year": 2013,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "FIGLET",
+                        "folder": "FIGLET",
+                        "year": 1991,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "FILEBENCH_WML",
+                        "folder": "FILEBENCH_WML",
+                        "year": 2003,
+                        "examples": 11,
+                        "exercises": 10
+            },
+            {
+                        "name": "FILTERSCRIPT",
+                        "folder": "FILTERSCRIPT",
+                        "year": 2010,
+                        "examples": 11,
+                        "exercises": 10
+            },
+            {
+                        "name": "FIM++",
+                        "folder": "FIM++",
+                        "year": 2012,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "FIMPLUSPLUS",
+                        "folder": "FIMPLUSPLUS",
+                        "year": 2012,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "FISH",
+                        "folder": "FISH",
+                        "year": 2005,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "FJÖLNIR",
+                        "folder": "FJÖLNIR",
+                        "year": 1984,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "FLANG",
+                        "folder": "FLANG",
+                        "year": 2015,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "FLIX",
+                        "folder": "FLIX",
+                        "year": 2016,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "FLOW",
+                        "folder": "FLOW",
+                        "year": 2014,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "FLUA",
+                        "folder": "FLUA",
+                        "year": 2012,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "FLUX",
+                        "folder": "FLUX",
+                        "year": 2014,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "FORMIT",
+                        "folder": "FORMIT",
+                        "year": 2012,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "FORTH",
+                        "folder": "FORTH",
+                        "year": 1970,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "FORTRAN",
+                        "folder": "FORTRAN",
+                        "year": 1957,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "FRANCA",
+                        "folder": "FRANCA",
+                        "year": 2012,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "FREEBASIC",
+                        "folder": "FREEBASIC",
+                        "year": 2004,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "FREEMARKER",
+                        "folder": "FREEMARKER",
+                        "year": 2003,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "FREGE",
+                        "folder": "FREGE",
+                        "year": 2011,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "FSHARP",
+                        "folder": "FSHARP",
+                        "year": 2005,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "FSTAR",
+                        "folder": "FSTAR",
+                        "year": 2012,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "FUNGE_98",
+                        "folder": "FUNGE_98",
+                        "year": 1998,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "FUTHARK",
+                        "folder": "FUTHARK",
+                        "year": 2013,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "F_SHARP",
+                        "folder": "F_SHARP",
+                        "year": 2005,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "GAME_MAKER_LANGUAGE",
+                        "folder": "GAME_MAKER_LANGUAGE",
+                        "year": 1999,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "GAMS",
+                        "folder": "GAMS",
+                        "year": 1976,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "GAP",
+                        "folder": "GAP",
+                        "year": 1986,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "GAS",
+                        "folder": "GAS",
+                        "year": 1986,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "GDB",
+                        "folder": "GDB",
+                        "year": 1988,
+                        "examples": 11,
+                        "exercises": 10
+            },
+            {
+                        "name": "GDSCRIPT",
+                        "folder": "GDSCRIPT",
+                        "year": 2014,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "GENSHI",
+                        "folder": "GENSHI",
+                        "year": 2006,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "GENTOO",
+                        "folder": "GENTOO",
+                        "year": 2002,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "GENTOO_EBUILD",
+                        "folder": "GENTOO_EBUILD",
+                        "year": 2002,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "GHERKIN",
+                        "folder": "GHERKIN",
+                        "year": 2008,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "GLEAM",
+                        "folder": "GLEAM",
+                        "year": 2016,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "GLSL",
+                        "folder": "GLSL",
+                        "year": 2003,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "GLYPH",
+                        "folder": "GLYPH",
+                        "year": 2011,
+                        "examples": 21,
+                        "exercises": 20
+            },
+            {
+                        "name": "GNUPLOT",
+                        "folder": "GNUPLOT",
+                        "year": 1986,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "GNU_GUILE",
+                        "folder": "GNU_GUILE",
+                        "year": 1993,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "GO",
+                        "folder": "GO",
+                        "year": 2009,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "GODOT",
+                        "folder": "GODOT",
+                        "year": 2014,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "GOLFSCRIPT",
+                        "folder": "GOLFSCRIPT",
+                        "year": 2007,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "GOLO",
+                        "folder": "GOLO",
+                        "year": 2012,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "GOSU",
+                        "folder": "GOSU",
+                        "year": 2010,
+                        "examples": 20,
+                        "exercises": 20
+            },
+            {
+                        "name": "GRACE",
+                        "folder": "GRACE",
+                        "year": 2010,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "GRAMMATICAL_FRAMEWORK",
+                        "folder": "GRAMMATICAL_FRAMEWORK",
+                        "year": 2000,
+                        "examples": 11,
+                        "exercises": 10
+            },
+            {
+                        "name": "GRAPHVIZ",
+                        "folder": "GRAPHVIZ",
+                        "year": 1991,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "GRAPHVIZ_DOT",
+                        "folder": "GRAPHVIZ_DOT",
+                        "year": 1991,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "GRASS",
+                        "folder": "GRASS",
+                        "year": 2008,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "GROOVY",
+                        "folder": "GROOVY",
+                        "year": 2003,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "G_CODE",
+                        "folder": "G_CODE",
+                        "year": 1950,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "HACK",
+                        "folder": "HACK",
+                        "year": 2010,
+                        "examples": 20,
+                        "exercises": 20
+            },
+            {
+                        "name": "HAIFU",
+                        "folder": "HAIFU",
+                        "year": 2013,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "HAML",
+                        "folder": "HAML",
+                        "year": 2006,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "HARBOUR",
+                        "folder": "HARBOUR",
+                        "year": 1999,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "HASKELL",
+                        "folder": "HASKELL",
+                        "year": 1990,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "HAXE",
+                        "folder": "HAXE",
+                        "year": 2005,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "HCL",
+                        "folder": "HCL",
+                        "year": 2014,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "HLSL",
+                        "folder": "HLSL",
+                        "year": 2000,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "HOLYC",
+                        "folder": "HOLYC",
+                        "year": 2003,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "HTML",
+                        "folder": "HTML",
+                        "year": 1993,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "HY",
+                        "folder": "HY",
+                        "year": 2013,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "HYPHY",
+                        "folder": "HYPHY",
+                        "year": 2013,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "ICON",
+                        "folder": "ICON",
+                        "year": 1977,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "IDL",
+                        "folder": "IDL",
+                        "year": 1989,
+                        "examples": 20,
+                        "exercises": 20
+            },
+            {
+                        "name": "IDRIS",
+                        "folder": "IDRIS",
+                        "year": 2009,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "IGOR_PRO",
+                        "folder": "IGOR_PRO",
+                        "year": 1990,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "INFORM_7",
+                        "folder": "INFORM_7",
+                        "year": 2006,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "INI",
+                        "folder": "INI",
+                        "year": 0,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "INK",
+                        "folder": "INK",
+                        "year": 0,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "INNO_SETUP",
+                        "folder": "INNO_SETUP",
+                        "year": 1997,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "INTERCAL",
+                        "folder": "INTERCAL",
+                        "year": 1972,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "IO",
+                        "folder": "IO",
+                        "year": 2002,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "IOKE",
+                        "folder": "IOKE",
+                        "year": 2006,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "ISABELLE",
+                        "folder": "ISABELLE",
+                        "year": 1986,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "ISLISP",
+                        "folder": "ISLISP",
+                        "year": 0,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "J",
+                        "folder": "J",
+                        "year": 1990,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "JANET",
+                        "folder": "JANET",
+                        "year": 2017,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "JAVA",
+                        "folder": "JAVA",
+                        "year": 1995,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "JAVASCRIPT",
+                        "folder": "JAVASCRIPT",
+                        "year": 1995,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "JAVA_PROPERTIES",
+                        "folder": "JAVA_PROPERTIES",
+                        "year": 0,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "JAVA_SERVER_PAGES",
+                        "folder": "JAVA_SERVER_PAGES",
+                        "year": 0,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "JCL",
+                        "folder": "JCL",
+                        "year": 0,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "JELLY",
+                        "folder": "JELLY",
+                        "year": 2015,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "JFLEX",
+                        "folder": "JFLEX",
+                        "year": 1996,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "JINJA",
+                        "folder": "JINJA",
+                        "year": 2008,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "JINJA2",
+                        "folder": "JINJA2",
+                        "year": 2008,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "JOVIAL",
+                        "folder": "JOVIAL",
+                        "year": 1959,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "JQ",
+                        "folder": "JQ",
+                        "year": 0,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "JSON",
+                        "folder": "JSON",
+                        "year": 2001,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "JSX",
+                        "folder": "JSX",
+                        "year": 2013,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "JULIA",
+                        "folder": "JULIA",
+                        "year": 2012,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "JUST",
+                        "folder": "JUST",
+                        "year": 0,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "K",
+                        "folder": "K",
+                        "year": 1993,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "KAITAI",
+                        "folder": "KAITAI",
+                        "year": 2015,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "KAITAI_STRUCT",
+                        "folder": "KAITAI_STRUCT",
+                        "year": 2015,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "KAKOUNE_SCRIPT",
+                        "folder": "KAKOUNE_SCRIPT",
+                        "year": 0,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "KERBOSCRIPT",
+                        "folder": "KERBOSCRIPT",
+                        "year": 0,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "KICAD_LAYOUT",
+                        "folder": "KICAD_LAYOUT",
+                        "year": 2013,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "KIT",
+                        "folder": "KIT",
+                        "year": 2014,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "KITCHEN_SINK",
+                        "folder": "KITCHEN_SINK",
+                        "year": 0,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "KOKA",
+                        "folder": "KOKA",
+                        "year": 2012,
+                        "examples": 20,
+                        "exercises": 20
+            },
+            {
+                        "name": "KOTLIN",
+                        "folder": "KOTLIN",
+                        "year": 2011,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "KRL",
+                        "folder": "KRL",
+                        "year": 1973,
+                        "examples": 20,
+                        "exercises": 20
+            },
+            {
+                        "name": "KSH",
+                        "folder": "KSH",
+                        "year": 1983,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "KSP",
+                        "folder": "KSP",
+                        "year": 0,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "KUBERNETES",
+                        "folder": "KUBERNETES",
+                        "year": 0,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "KUSTO",
+                        "folder": "KUSTO",
+                        "year": 0,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "LABVIEW",
+                        "folder": "LABVIEW",
+                        "year": 1986,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "LASSO",
+                        "folder": "LASSO",
+                        "year": 1995,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "LATEX",
+                        "folder": "LATEX",
+                        "year": 1985,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "LAZY_K",
+                        "folder": "LAZY_K",
+                        "year": 2002,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "LEAN",
+                        "folder": "LEAN",
+                        "year": 2013,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "LESS",
+                        "folder": "LESS",
+                        "year": 0,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "LEX",
+                        "folder": "LEX",
+                        "year": 1975,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "LFE",
+                        "folder": "LFE",
+                        "year": 2008,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "LIGHTTPD",
+                        "folder": "LIGHTTPD",
+                        "year": 2003,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "LILYPOND",
+                        "folder": "LILYPOND",
+                        "year": 1996,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "LIMBO",
+                        "folder": "LIMBO",
+                        "year": 1995,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "LIQUID",
+                        "folder": "LIQUID",
+                        "year": 0,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "LISP",
+                        "folder": "LISP",
+                        "year": 1958,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "LIVESCRIPT",
+                        "folder": "LIVESCRIPT",
+                        "year": 1995,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "LLVM",
+                        "folder": "LLVM",
+                        "year": 2003,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "LOGOS",
+                        "folder": "LOGOS",
+                        "year": 2009,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "LOGTALK",
+                        "folder": "LOGTALK",
+                        "year": 1988,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "LOLCODE",
+                        "folder": "LOLCODE",
+                        "year": 2007,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "LOOKML",
+                        "folder": "LOOKML",
+                        "year": 2012,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "LOOMSCRIPT",
+                        "folder": "LOOMSCRIPT",
+                        "year": 2013,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "LSL",
+                        "folder": "LSL",
+                        "year": 2003,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "LUA",
+                        "folder": "LUA",
+                        "year": 1993,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "LUAU",
+                        "folder": "LUAU",
+                        "year": 0,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "LUCID",
+                        "folder": "LUCID",
+                        "year": 1976,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "LUSH",
+                        "folder": "LUSH",
+                        "year": 1997,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "M4",
+                        "folder": "M4",
+                        "year": 1989,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "MAGIK",
+                        "folder": "MAGIK",
+                        "year": 1999,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "MAKEFILE",
+                        "folder": "MAKEFILE",
+                        "year": 1976,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "MAKO",
+                        "folder": "MAKO",
+                        "year": 2006,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "MALBOLGE",
+                        "folder": "MALBOLGE",
+                        "year": 1998,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "MARKDOWN",
+                        "folder": "MARKDOWN",
+                        "year": 2004,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "MASK",
+                        "folder": "MASK",
+                        "year": 2013,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "MATHICS",
+                        "folder": "MATHICS",
+                        "year": 2011,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "MATLAB",
+                        "folder": "MATLAB",
+                        "year": 1984,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "MAX",
+                        "folder": "MAX",
+                        "year": 1988,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "MAXSCRIPT",
+                        "folder": "MAXSCRIPT",
+                        "year": 1997,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "MERCURY",
+                        "folder": "MERCURY",
+                        "year": 1995,
+                        "examples": 20,
+                        "exercises": 20
+            },
+            {
+                        "name": "MESON",
+                        "folder": "MESON",
+                        "year": 2013,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "METAL",
+                        "folder": "METAL",
+                        "year": 2014,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "MINID",
+                        "folder": "MINID",
+                        "year": 2006,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "MIRAH",
+                        "folder": "MIRAH",
+                        "year": 2009,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "ML",
+                        "folder": "ML",
+                        "year": 1973,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "MODELICA",
+                        "folder": "MODELICA",
+                        "year": 1997,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "MODULA_2",
+                        "folder": "MODULA_2",
+                        "year": 1978,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "MODULA_3",
+                        "folder": "MODULA_3",
+                        "year": 1989,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "MOJO",
+                        "folder": "MOJO",
+                        "year": 2023,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "MONKEY",
+                        "folder": "MONKEY",
+                        "year": 2001,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "MOONSCRIPT",
+                        "folder": "MOONSCRIPT",
+                        "year": 2011,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "MORF",
+                        "folder": "MORF",
+                        "year": 2012,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "MOVE",
+                        "folder": "MOVE",
+                        "year": 2019,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "MQL4",
+                        "folder": "MQL4",
+                        "year": 2005,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "MQL5",
+                        "folder": "MQL5",
+                        "year": 2010,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "MTML",
+                        "folder": "MTML",
+                        "year": 2013,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "MUPAD",
+                        "folder": "MUPAD",
+                        "year": 1997,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "NASL",
+                        "folder": "NASL",
+                        "year": 1998,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "NCL",
+                        "folder": "NCL",
+                        "year": 1987,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "NEARLEY",
+                        "folder": "NEARLEY",
+                        "year": 2014,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "NEMERLE",
+                        "folder": "NEMERLE",
+                        "year": 2003,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "NETLINX",
+                        "folder": "NETLINX",
+                        "year": 2001,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "NETLOGO",
+                        "folder": "NETLOGO",
+                        "year": 1999,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "NEWLISP",
+                        "folder": "NEWLISP",
+                        "year": 1991,
+                        "examples": 20,
+                        "exercises": 20
+            },
+            {
+                        "name": "NEXTFLOW",
+                        "folder": "NEXTFLOW",
+                        "year": 2013,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "NGINX",
+                        "folder": "NGINX",
+                        "year": 2004,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "NICKLE",
+                        "folder": "NICKLE",
+                        "year": 2000,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "NIM",
+                        "folder": "NIM",
+                        "year": 2008,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "NIT",
+                        "folder": "NIT",
+                        "year": 2009,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "NIX",
+                        "folder": "NIX",
+                        "year": 2003,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "NODEJS",
+                        "folder": "NODEJS",
+                        "year": 2009,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "NSIS",
+                        "folder": "NSIS",
+                        "year": 2000,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "NU",
+                        "folder": "NU",
+                        "year": 2007,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "NUMPY",
+                        "folder": "NUMPY",
+                        "year": 2006,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "OBERON",
+                        "folder": "OBERON",
+                        "year": 1988,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "OBJECTIVE-C",
+                        "folder": "OBJECTIVE-C",
+                        "year": 1986,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "OBJECTIVE_C",
+                        "folder": "OBJECTIVE_C",
+                        "year": 1986,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "OBJECTIVE_J",
+                        "folder": "OBJECTIVE_J",
+                        "year": 2008,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "OCAML",
+                        "folder": "OCAML",
+                        "year": 1996,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "OCTAVE",
+                        "folder": "OCTAVE",
+                        "year": 1992,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "ODIN",
+                        "folder": "ODIN",
+                        "year": 2016,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "OMGROFL",
+                        "folder": "OMGROFL",
+                        "year": 2005,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "OOK",
+                        "folder": "OOK",
+                        "year": 2005,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "OPA",
+                        "folder": "OPA",
+                        "year": 2007,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "OPAL",
+                        "folder": "OPAL",
+                        "year": 1989,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "OPENCL",
+                        "folder": "OPENCL",
+                        "year": 2008,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "OPENEDGE",
+                        "folder": "OPENEDGE",
+                        "year": 1984,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "OPENSCAD",
+                        "folder": "OPENSCAD",
+                        "year": 2010,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "OX",
+                        "folder": "OX",
+                        "year": 1996,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "OXYGENE",
+                        "folder": "OXYGENE",
+                        "year": 2008,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "OZ",
+                        "folder": "OZ",
+                        "year": 1991,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "P4",
+                        "folder": "P4",
+                        "year": 2014,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "PAN",
+                        "folder": "PAN",
+                        "year": 2005,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "PAPYRUS",
+                        "folder": "PAPYRUS",
+                        "year": 2011,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "PARASAIL",
+                        "folder": "PARASAIL",
+                        "year": 2009,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "PARROT",
+                        "folder": "PARROT",
+                        "year": 2001,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "PASCAL",
+                        "folder": "PASCAL",
+                        "year": 1970,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "PAWN",
+                        "folder": "PAWN",
+                        "year": 2006,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "PEP8",
+                        "folder": "PEP8",
+                        "year": 2012,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "PERL",
+                        "folder": "PERL",
+                        "year": 1987,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "PHP",
+                        "folder": "PHP",
+                        "year": 1995,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "PICOLISP",
+                        "folder": "PICOLISP",
+                        "year": 1988,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "PIET",
+                        "folder": "PIET",
+                        "year": 1998,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "PIGLATIN",
+                        "folder": "PIGLATIN",
+                        "year": 2008,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "PIKE",
+                        "folder": "PIKE",
+                        "year": 1994,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "PLSQL",
+                        "folder": "PLSQL",
+                        "year": 1992,
+                        "examples": 20,
+                        "exercises": 20
+            },
+            {
+                        "name": "POGOSCRIPT",
+                        "folder": "POGOSCRIPT",
+                        "year": 2012,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "PONY",
+                        "folder": "PONY",
+                        "year": 2015,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "POSTSCRIPT",
+                        "folder": "POSTSCRIPT",
+                        "year": 1982,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "POV_RAY",
+                        "folder": "POV_RAY",
+                        "year": 1991,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "POWERSHELL",
+                        "folder": "POWERSHELL",
+                        "year": 2006,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "PROCESSING",
+                        "folder": "PROCESSING",
+                        "year": 2001,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "PROLOG",
+                        "folder": "PROLOG",
+                        "year": 1972,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "PROPELLER",
+                        "folder": "PROPELLER",
+                        "year": 2006,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "PROTOBUF",
+                        "folder": "PROTOBUF",
+                        "year": 2008,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "PUG",
+                        "folder": "PUG",
+                        "year": 2010,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "PUPPET",
+                        "folder": "PUPPET",
+                        "year": 2005,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "PUREBASIC",
+                        "folder": "PUREBASIC",
+                        "year": 1998,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "PURESCRIPT",
+                        "folder": "PURESCRIPT",
+                        "year": 2013,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "PYTH",
+                        "folder": "PYTH",
+                        "year": 2015,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "PYTHON",
+                        "folder": "PYTHON",
+                        "year": 1991,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "QMAKE",
+                        "folder": "QMAKE",
+                        "year": 2005,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "QML",
+                        "folder": "QML",
+                        "year": 2009,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "QUAKE",
+                        "folder": "QUAKE",
+                        "year": 1996,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "R",
+                        "folder": "R",
+                        "year": 1993,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "RACKET",
+                        "folder": "RACKET",
+                        "year": 1995,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "RAKU",
+                        "folder": "RAKU",
+                        "year": 2015,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "RAML",
+                        "folder": "RAML",
+                        "year": 2013,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "RASCAL",
+                        "folder": "RASCAL",
+                        "year": 2009,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "REASON",
+                        "folder": "REASON",
+                        "year": 2016,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "REBOL",
+                        "folder": "REBOL",
+                        "year": 1997,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "RED",
+                        "folder": "RED",
+                        "year": 2011,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "REDCODE",
+                        "folder": "REDCODE",
+                        "year": 1984,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "RENDERSCRIPT",
+                        "folder": "RENDERSCRIPT",
+                        "year": 2012,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "REN_PY",
+                        "folder": "REN_PY",
+                        "year": 2004,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "REXX",
+                        "folder": "REXX",
+                        "year": 1983,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "RING",
+                        "folder": "RING",
+                        "year": 2016,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "ROBOTFRAMEWORK",
+                        "folder": "ROBOTFRAMEWORK",
+                        "year": 2008,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "RUBY",
+                        "folder": "RUBY",
+                        "year": 1995,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "RUST",
+                        "folder": "RUST",
+                        "year": 2010,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "SAS",
+                        "folder": "SAS",
+                        "year": 1976,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "SCALA",
+                        "folder": "SCALA",
+                        "year": 2003,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "SCHEME",
+                        "folder": "SCHEME",
+                        "year": 1975,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "SCILAB",
+                        "folder": "SCILAB",
+                        "year": 1990,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "SCRATCH",
+                        "folder": "SCRATCH",
+                        "year": 2007,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "SEED7",
+                        "folder": "SEED7",
+                        "year": 2005,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "SELF",
+                        "folder": "SELF",
+                        "year": 1987,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "SHADERLAB",
+                        "folder": "SHADERLAB",
+                        "year": 2005,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "SHAKESPEARE",
+                        "folder": "SHAKESPEARE",
+                        "year": 2001,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "SHELL",
+                        "folder": "SHELL",
+                        "year": 1977,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "SHEN",
+                        "folder": "SHEN",
+                        "year": 2010,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "SIEVE",
+                        "folder": "SIEVE",
+                        "year": 1999,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "SLASH",
+                        "folder": "SLASH",
+                        "year": 2007,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "SLICE",
+                        "folder": "SLICE",
+                        "year": 2003,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "SMALI",
+                        "folder": "SMALI",
+                        "year": 2009,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "SMALLTALK",
+                        "folder": "SMALLTALK",
+                        "year": 1980,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "SMARTY",
+                        "folder": "SMARTY",
+                        "year": 2001,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "SOLIDITY",
+                        "folder": "SOLIDITY",
+                        "year": 2015,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "SOURCEPAWN",
+                        "folder": "SOURCEPAWN",
+                        "year": 2006,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "SPARQL",
+                        "folder": "SPARQL",
+                        "year": 2008,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "SPOON",
+                        "folder": "SPOON",
+                        "year": 2012,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "SQF",
+                        "folder": "SQF",
+                        "year": 2002,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "SQL",
+                        "folder": "SQL",
+                        "year": 1974,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "SRL",
+                        "folder": "SRL",
+                        "year": 2013,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "STATA",
+                        "folder": "STATA",
+                        "year": 1985,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "STUCK",
+                        "folder": "STUCK",
+                        "year": 2012,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "STYLUS",
+                        "folder": "STYLUS",
+                        "year": 2010,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "SUPERCOLLIDER",
+                        "folder": "SUPERCOLLIDER",
+                        "year": 1996,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "SVELTE",
+                        "folder": "SVELTE",
+                        "year": 2016,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "SVG",
+                        "folder": "SVG",
+                        "year": 2001,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "SWIFT",
+                        "folder": "SWIFT",
+                        "year": 2014,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "SYSTEMVERILOG",
+                        "folder": "SYSTEMVERILOG",
+                        "year": 2005,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "TCL",
+                        "folder": "TCL",
+                        "year": 1988,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "TEA",
+                        "folder": "TEA",
+                        "year": 2012,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "TERRA",
+                        "folder": "TERRA",
+                        "year": 2013,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "TEX",
+                        "folder": "TEX",
+                        "year": 1978,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "THRIFT",
+                        "folder": "THRIFT",
+                        "year": 2007,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "THUE",
+                        "folder": "THUE",
+                        "year": 2000,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "TI_PROGRAM",
+                        "folder": "TI_PROGRAM",
+                        "year": 1985,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "TLA",
+                        "folder": "TLA",
+                        "year": 1999,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "TOML",
+                        "folder": "TOML",
+                        "year": 2013,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "TURING",
+                        "folder": "TURING",
+                        "year": 1988,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "TXL",
+                        "folder": "TXL",
+                        "year": 1988,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "TYPESCRIPT",
+                        "folder": "TYPESCRIPT",
+                        "year": 2012,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "UNDERLOAD",
+                        "folder": "UNDERLOAD",
+                        "year": 2006,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "UNLAMBDA",
+                        "folder": "UNLAMBDA",
+                        "year": 2001,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "UNO",
+                        "folder": "UNO",
+                        "year": 2003,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "UNREALSCRIPT",
+                        "folder": "UNREALSCRIPT",
+                        "year": 1998,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "URWEB",
+                        "folder": "URWEB",
+                        "year": 2011,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "V",
+                        "folder": "V",
+                        "year": 2019,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "VALA",
+                        "folder": "VALA",
+                        "year": 2006,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "VBA",
+                        "folder": "VBA",
+                        "year": 1993,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "VBSCRIPT",
+                        "folder": "VBSCRIPT",
+                        "year": 1996,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "VCL",
+                        "folder": "VCL",
+                        "year": 2006,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "VELATO",
+                        "folder": "VELATO",
+                        "year": 2005,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "VERILOG",
+                        "folder": "VERILOG",
+                        "year": 1984,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "VHDL",
+                        "folder": "VHDL",
+                        "year": 1987,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "VIML",
+                        "folder": "VIML",
+                        "year": 1991,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "VISUAL_BASIC",
+                        "folder": "VISUAL_BASIC",
+                        "year": 1991,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "VOLT",
+                        "folder": "VOLT",
+                        "year": 2012,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "VUE",
+                        "folder": "VUE",
+                        "year": 2014,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "VYPER",
+                        "folder": "VYPER",
+                        "year": 2018,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "VYXAL",
+                        "folder": "VYXAL",
+                        "year": 2021,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "WDL",
+                        "folder": "WDL",
+                        "year": 2014,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "WEBASSEMBLY",
+                        "folder": "WEBASSEMBLY",
+                        "year": 2015,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "WEBIDL",
+                        "folder": "WEBIDL",
+                        "year": 2011,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "WHENEVER",
+                        "folder": "WHENEVER",
+                        "year": 2005,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "WHILEY",
+                        "folder": "WHILEY",
+                        "year": 2009,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "WHIRL",
+                        "folder": "WHIRL",
+                        "year": 2003,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "WHITESPACE",
+                        "folder": "WHITESPACE",
+                        "year": 2003,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "WOLLOK",
+                        "folder": "WOLLOK",
+                        "year": 2013,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "WREN",
+                        "folder": "WREN",
+                        "year": 2013,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "X10",
+                        "folder": "X10",
+                        "year": 2005,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "XBASE",
+                        "folder": "XBASE",
+                        "year": 1987,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "XC",
+                        "folder": "XC",
+                        "year": 2009,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "XML",
+                        "folder": "XML",
+                        "year": 1996,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "XOJO",
+                        "folder": "XOJO",
+                        "year": 1998,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "XPAGES",
+                        "folder": "XPAGES",
+                        "year": 2007,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "XPROC",
+                        "folder": "XPROC",
+                        "year": 2007,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "XQUERY",
+                        "folder": "XQUERY",
+                        "year": 2003,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "XS",
+                        "folder": "XS",
+                        "year": 1994,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "XSLT",
+                        "folder": "XSLT",
+                        "year": 1999,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "XTEND",
+                        "folder": "XTEND",
+                        "year": 2011,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "YACC",
+                        "folder": "YACC",
+                        "year": 1975,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "YAML",
+                        "folder": "YAML",
+                        "year": 2001,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "YARA",
+                        "folder": "YARA",
+                        "year": 2007,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "YUL",
+                        "folder": "YUL",
+                        "year": 2019,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "ZAP",
+                        "folder": "ZAP",
+                        "year": 2013,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "ZEPHIR",
+                        "folder": "ZEPHIR",
+                        "year": 2012,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "ZIG",
+                        "folder": "ZIG",
+                        "year": 2016,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "ZIMPL",
+                        "folder": "ZIMPL",
+                        "year": 2003,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "ZOMBIE",
+                        "folder": "ZOMBIE",
+                        "year": 2012,
+                        "examples": 10,
+                        "exercises": 10
+            },
+            {
+                        "name": "ZSH",
+                        "folder": "ZSH",
+                        "year": 1990,
+                        "examples": 10,
+                        "exercises": 10
+            }
+];
+        function render(search = '') {
             const grid = document.getElementById('languagesGrid');
             grid.innerHTML = '';
-            const filtered = languagesData.filter(l => {
-                const matchCat = filter === 'all' || l.category === filter;
-                const matchSearch = l.name.toLowerCase().includes(search.toLowerCase());
-                return matchCat && matchSearch;
-            });
-
+            const query = search.trim().toLowerCase();
+            const filtered = languagesData.filter(l => l.name.toLowerCase().includes(query));
             filtered.forEach(l => {
                 const icon = languageIcons[l.name] || '💻';
-                const card = document.createElement('div');
+                const card = document.createElement('article');
                 card.className = 'language-card';
                 card.innerHTML = `
                     <div class="language-card-header">
                         <div class="language-icon">${icon}</div>
                         <div>
                             <h3>${l.name}</h3>
-                            <span class="meta-tag">${l.year}</span>
+                            <span class="meta-tag">${l.year || '—'}</span>
                         </div>
                     </div>
-                    <p style="font-size: 0.8em; color: var(--text-dim);">Clique para explorar detalhes e exercícios desta tecnologia.</p>
+                    <p style="font-size: 0.8em; color: var(--text-dim);">${l.examples} exemplos · ${l.exercises} exercícios</p>
+                    <button class="details-btn" type="button">Ver detalhes →</button>
                 `;
-                card.onclick = () => openModal(l.name);
+                card.querySelector('.details-btn').onclick = (event) => { event.stopPropagation(); openModal(l); };
+                card.onclick = () => openModal(l);
                 grid.appendChild(card);
             });
         }
-
-        function openModal(name) {
+        function openModal(language) {
+            const name = typeof language === 'string' ? language : language.name;
+            const folder = typeof language === 'string' ? language : language.folder;
+            const examples = typeof language === 'string' ? 0 : language.examples;
+            const exercises = typeof language === 'string' ? 0 : language.exercises;
             document.getElementById('modalTitle').innerText = name;
-            document.getElementById('modalBody').innerHTML = `<h3>Sobre ${name}</h3><p>Conteúdo em auditoria...</p>`;
+            document.getElementById('modalBody').innerHTML = `
+                <h3>Sobre ${name}</h3>
+                <p>Explore os arquivos reais desta linguagem no acervo do Museu.</p>
+                <p><strong>${examples}</strong> exemplos · <strong>${exercises}</strong> exercícios</p>
+                <p><a class="details-link" href="https://github.com/gabrielaraujo-eng/projetos/tree/main/sites/museu-de-linguagens-do-mundo/linguagens/${encodeURIComponent(folder)}" target="_blank" rel="noopener">Abrir arquivos de ${name} no GitHub ↗</a></p>
+            `;
             document.getElementById('languageModal').style.display = 'flex';
         }
-
         function closeModal() { document.getElementById('languageModal').style.display = 'none'; }
-
-        document.getElementById('searchInput').oninput = (e) => render('all', e.target.value);
-        
-        document.querySelectorAll('.category-btn').forEach(btn => {
-            btn.onclick = () => {
-                document.querySelector('.category-btn.active').classList.remove('active');
-                btn.classList.add('active');
-                render(btn.dataset.category);
-            };
-        });
+        document.getElementById('searchInput').oninput = (e) => render(e.target.value);
 
         // Fundo Animado
         const canvas = document.getElementById('bg-canvas');
