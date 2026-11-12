@@ -1,0 +1,1 @@
+DEF mult a b RETURN a * b

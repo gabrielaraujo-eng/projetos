@@ -1,0 +1,1 @@
+main :- write('Olá, Mundo!'), nl.

@@ -1,0 +1,1 @@
+(* Coq foca em tipos e provas *)

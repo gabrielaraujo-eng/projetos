@@ -1,0 +1,1 @@
+var res:Number = Math.sqrt(16);

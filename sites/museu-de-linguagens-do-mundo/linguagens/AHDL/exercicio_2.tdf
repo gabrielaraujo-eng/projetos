@@ -1,0 +1,3 @@
+SUBDESIGN hello ( ) BEGIN
+  ASSERT (1 > 0) REPORT "Olá, Mundo!" SEVERITY INFO;
+END;

@@ -1,0 +1,3 @@
+for $i := 10 down to 1
+  message($i)
+end for

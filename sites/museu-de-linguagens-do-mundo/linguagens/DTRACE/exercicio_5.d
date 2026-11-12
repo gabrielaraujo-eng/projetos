@@ -1,0 +1,1 @@
+mult = arg0 * arg1;

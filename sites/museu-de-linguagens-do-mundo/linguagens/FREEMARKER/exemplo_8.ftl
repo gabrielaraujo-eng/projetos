@@ -1,0 +1,1 @@
+${"freemarker"?upper_case}

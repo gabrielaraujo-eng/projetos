@@ -1,0 +1,1 @@
+TEXT rev := reverse(s);

@@ -1,0 +1,1 @@
+PROC soma(a, b) IS a+b

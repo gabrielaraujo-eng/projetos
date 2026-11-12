@@ -1,0 +1,1 @@
+evaluate-commands %sh{ for i in {10..1}; do echo "echo $i"; done }

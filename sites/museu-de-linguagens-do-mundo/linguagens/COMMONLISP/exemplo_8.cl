@@ -1,0 +1,1 @@
+(defparameter full (concatenate 'string "Olá" " Mundo"))

@@ -1,0 +1,1 @@
+List/generate 5 Natural (λ(i : Natural) → i)

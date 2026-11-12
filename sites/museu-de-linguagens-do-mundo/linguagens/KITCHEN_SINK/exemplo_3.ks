@@ -1,0 +1,1 @@
+IF x > 0 PRINT "Positivo" ELSE PRINT "Negativo"

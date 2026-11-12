@@ -1,0 +1,1 @@
+/* Cypher usa funções integradas */

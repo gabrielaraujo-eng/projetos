@@ -1,0 +1,1 @@
+"gdscript".to_upper()

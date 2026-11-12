@@ -1,0 +1,1 @@
+set full to "Olá" & " Mundo"

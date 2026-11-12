@@ -1,0 +1,7 @@
+var pontuacao = 85;
+
+if (pontuacao >= 70) {
+    print("Aprovado");
+} else {
+    print("Reprovado");
+}

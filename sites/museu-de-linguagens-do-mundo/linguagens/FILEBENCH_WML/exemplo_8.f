@@ -1,0 +1,1 @@
+// Sintaxe para string em FILEBENCH_WML

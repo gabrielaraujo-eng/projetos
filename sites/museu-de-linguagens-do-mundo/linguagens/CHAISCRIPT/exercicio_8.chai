@@ -1,0 +1,3 @@
+var frase = "EXEMPLO DE CHAISCRIPT";
+print("Original: " + frase);
+print("Primeira letra maiúscula: " + frase.capitalize());

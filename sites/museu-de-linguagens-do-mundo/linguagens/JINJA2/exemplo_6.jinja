@@ -1,0 +1,8 @@
+{# Exemplo 6: Lista / array / coleção #}
+{% set frutas = ["Maçã", "Banana", "Laranja"] %}
+<p>Primeira fruta: {{ frutas[0] }}</p>
+<ul>
+{% for fruta in frutas %}
+    <li>{{ fruta }}</li>
+{% endfor %}
+</ul>

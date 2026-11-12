@@ -1,0 +1,1 @@
+bb.error("Ocorreu um erro")

@@ -1,0 +1,1 @@
+/* No string ops in hardware */

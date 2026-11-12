@@ -1,0 +1,1 @@
+// Flux trata erros via funções de validação ou falhas de query

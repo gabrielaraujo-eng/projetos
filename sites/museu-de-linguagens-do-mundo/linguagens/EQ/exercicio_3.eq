@@ -1,0 +1,1 @@
+if(n % 2 == 0) Log.display("Par");

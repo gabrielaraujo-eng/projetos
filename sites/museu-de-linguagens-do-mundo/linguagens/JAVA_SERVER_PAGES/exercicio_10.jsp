@@ -1,0 +1,1 @@
+<%= lista.contains(2) %>

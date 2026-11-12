@@ -1,0 +1,2 @@
+pessoa("Nagato", 25).
+?- pessoa("Nagato", Idade).

@@ -1,0 +1,1 @@
+IF n % 2 == 0 PRINT "Par"

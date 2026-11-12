@@ -1,0 +1,3 @@
+let idade = 25
+let nome = "Frege"
+main _ = println (nome ++ " tem " ++ show idade ++ " anos")

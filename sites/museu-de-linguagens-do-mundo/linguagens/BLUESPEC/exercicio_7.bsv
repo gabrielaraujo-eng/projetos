@@ -1,0 +1,1 @@
+dynamicAssert(x > 0, "Erro");

@@ -1,0 +1,1 @@
+print("duktape".toUpperCase());

@@ -1,0 +1,1 @@
+if(!process.env.DB_URL) console.warn('Aviso: DB_URL não definida');

@@ -1,0 +1,3 @@
+var idade = 25
+var nome = "Fidlar"
+print nome + " tem " + idade + " anos"

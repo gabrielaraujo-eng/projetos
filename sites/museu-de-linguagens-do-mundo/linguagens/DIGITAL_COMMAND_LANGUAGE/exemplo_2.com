@@ -1,0 +1,3 @@
+$ IDADE = 25
+$ NOME = "DCL"
+$ WRITE SYS$OUTPUT "NOME tem IDADE anos"

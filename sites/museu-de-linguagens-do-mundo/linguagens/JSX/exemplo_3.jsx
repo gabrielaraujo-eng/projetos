@@ -1,0 +1,1 @@
+{x > 0 ? <span>Positivo</span> : <span>Negativo</span>}

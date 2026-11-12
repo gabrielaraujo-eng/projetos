@@ -1,0 +1,1 @@
+OWN INTEGER i; COMMENT Variável estática;

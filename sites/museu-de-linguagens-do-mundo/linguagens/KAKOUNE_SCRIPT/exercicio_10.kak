@@ -1,0 +1,1 @@
+evaluate-commands %sh{ echo "1 2 3" | grep -q 2 && echo "echo Achou"; }

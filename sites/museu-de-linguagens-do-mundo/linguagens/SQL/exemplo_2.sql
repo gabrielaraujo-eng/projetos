@@ -1,0 +1,1 @@
+DECLARE @x INT = 42;

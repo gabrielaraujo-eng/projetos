@@ -1,0 +1,1 @@
+foreach (i in [10..1]) { println(i) }

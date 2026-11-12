@@ -1,0 +1,3 @@
+For(I,1,10)
+Disp I▶Dec
+End

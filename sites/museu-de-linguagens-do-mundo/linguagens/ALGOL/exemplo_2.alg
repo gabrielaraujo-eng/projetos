@@ -1,0 +1,1 @@
+INTEGER x; x := 10;

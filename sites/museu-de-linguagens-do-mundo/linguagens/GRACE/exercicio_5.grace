@@ -1,0 +1,1 @@
+method mult(a, b) { a * b }

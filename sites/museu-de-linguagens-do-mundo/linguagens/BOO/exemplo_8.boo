@@ -1,0 +1,1 @@
+full = "Olá" + " Mundo"

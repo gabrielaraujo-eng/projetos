@@ -1,0 +1,1 @@
+let mult a b = a * b

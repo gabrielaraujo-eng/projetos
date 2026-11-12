@@ -1,0 +1,1 @@
+CREATE (m:Message {text: 'Olá Mundo'}) RETURN m.text

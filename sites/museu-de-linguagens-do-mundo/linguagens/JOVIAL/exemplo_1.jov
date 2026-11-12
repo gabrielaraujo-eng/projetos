@@ -1,0 +1,6 @@
+START
+PROGRAM HELLO;
+BEGIN
+  OUTPUT('Olá, Mundo!');
+END
+TERM

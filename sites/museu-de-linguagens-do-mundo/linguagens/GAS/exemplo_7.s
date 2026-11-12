@@ -1,0 +1,1 @@
+// GAS não tem try-catch nativo

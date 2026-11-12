@@ -1,0 +1,1 @@
+"jq" | split("") | reverse | join("")

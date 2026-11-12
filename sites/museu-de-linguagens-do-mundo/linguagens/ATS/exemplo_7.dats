@@ -1,0 +1,1 @@
+assertloc (x > 0)

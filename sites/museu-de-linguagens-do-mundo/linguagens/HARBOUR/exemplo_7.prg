@@ -1,0 +1,5 @@
+BEGIN SEQUENCE
+   BREAK "Erro"
+RECOVER USING oErr
+   ? oErr
+END

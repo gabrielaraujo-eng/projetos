@@ -1,0 +1,1 @@
+if x > 10 then printfn "Maior" else printfn "Menor"

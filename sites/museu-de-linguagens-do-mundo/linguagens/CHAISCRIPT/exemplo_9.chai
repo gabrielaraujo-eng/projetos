@@ -1,0 +1,2 @@
+var numero = 25.0;
+print("Raiz quadrada de " + numero + ": " + sqrt(numero));

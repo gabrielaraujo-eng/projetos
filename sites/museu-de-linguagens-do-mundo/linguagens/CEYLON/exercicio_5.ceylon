@@ -1,0 +1,1 @@
+Integer add(Integer a, Integer b) => a + b;

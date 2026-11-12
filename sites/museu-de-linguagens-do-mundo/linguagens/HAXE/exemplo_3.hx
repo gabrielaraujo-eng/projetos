@@ -1,0 +1,1 @@
+if (x > 10) trace("Maior") else trace("Menor");

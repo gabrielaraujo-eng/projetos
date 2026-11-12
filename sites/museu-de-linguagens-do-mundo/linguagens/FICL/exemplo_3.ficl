@@ -1,0 +1,1 @@
+x @ 10 > if ." Maior" else ." Menor" then

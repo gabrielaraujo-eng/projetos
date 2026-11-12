@@ -1,0 +1,1 @@
+// HCL não tem try-catch

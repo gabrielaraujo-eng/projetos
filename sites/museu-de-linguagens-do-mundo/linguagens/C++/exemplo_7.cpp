@@ -1,0 +1,1 @@
+try { throw std::runtime_error("Erro"); } catch (const std::exception& e) { }

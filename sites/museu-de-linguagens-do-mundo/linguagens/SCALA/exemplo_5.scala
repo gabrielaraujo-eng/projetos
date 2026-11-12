@@ -1,0 +1,1 @@
+def soma(a: Int, b: Int): Int = a + b

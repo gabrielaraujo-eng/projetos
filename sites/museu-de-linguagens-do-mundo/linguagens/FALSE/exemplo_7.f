@@ -1,0 +1,1 @@
+// FALSE não tem tratamento de exceções

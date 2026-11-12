@@ -1,0 +1,7 @@
+#!/usr/bin/falcon
+
+import Math
+
+var base = 3
+var expoente = 4
+print("Potência: " + Math.pow(base, expoente))

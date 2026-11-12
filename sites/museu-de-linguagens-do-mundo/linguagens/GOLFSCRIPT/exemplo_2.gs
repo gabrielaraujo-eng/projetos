@@ -1,0 +1,1 @@
+25:i; "GolfScript":n; n " tem " i " anos"n

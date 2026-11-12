@@ -1,0 +1,1 @@
+(getpoint "Clique")

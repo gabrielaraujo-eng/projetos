@@ -1,0 +1,2 @@
+IF 10 > 5:
+    WRITE "Sim"

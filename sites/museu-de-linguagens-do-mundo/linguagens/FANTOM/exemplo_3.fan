@@ -1,0 +1,1 @@
+if (x > 0) echo("Positivo") else echo("Negativo")

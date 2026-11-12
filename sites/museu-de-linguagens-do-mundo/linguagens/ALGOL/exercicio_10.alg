@@ -1,0 +1,1 @@
+SWITCH s := l1, l2;

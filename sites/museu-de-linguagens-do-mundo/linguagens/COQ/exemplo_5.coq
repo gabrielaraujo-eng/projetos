@@ -1,0 +1,1 @@
+Definition square (n : nat) := n * n.

@@ -1,0 +1,1 @@
+List.sortWith (fun x y -> x - y) [3; 1; 4]

@@ -1,0 +1,1 @@
+echo %sh{ echo "sqrt(16)" | bc }

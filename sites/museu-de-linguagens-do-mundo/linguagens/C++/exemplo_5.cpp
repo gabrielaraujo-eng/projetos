@@ -1,0 +1,1 @@
+auto square = [](int n) { return n * n; };

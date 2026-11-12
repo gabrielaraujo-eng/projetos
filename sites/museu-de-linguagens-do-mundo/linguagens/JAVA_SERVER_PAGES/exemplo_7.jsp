@@ -1,0 +1,1 @@
+<% try { throw new Exception("Erro"); } catch (Exception e) { out.print(e.getMessage()); } %>

@@ -1,0 +1,2 @@
+TEXT s := "elan";
+putline(uppercase(s));

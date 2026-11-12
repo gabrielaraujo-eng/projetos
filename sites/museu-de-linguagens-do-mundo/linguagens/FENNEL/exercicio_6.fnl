@@ -1,0 +1,1 @@
+(table.insert lista 3)

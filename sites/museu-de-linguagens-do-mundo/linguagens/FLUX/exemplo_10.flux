@@ -1,0 +1,1 @@
+from(bucket: "example") |> range(start: -1h) |> sort(columns: ["_value"])

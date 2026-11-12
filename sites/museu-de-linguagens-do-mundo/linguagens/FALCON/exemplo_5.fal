@@ -1,0 +1,6 @@
+#!/usr/bin/falcon
+
+function saudacao(nome):
+    return "Olá, " + nome + "!"
+
+print(saudacao("Usuário"))

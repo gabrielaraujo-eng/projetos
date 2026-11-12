@@ -1,0 +1,1 @@
+<% List lista = Arrays.asList(1, 2, 3); %>

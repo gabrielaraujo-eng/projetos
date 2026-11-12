@@ -1,0 +1,1 @@
+fun soma (a, b) = a + b;

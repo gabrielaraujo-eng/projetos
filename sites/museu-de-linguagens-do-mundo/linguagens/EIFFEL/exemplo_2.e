@@ -1,0 +1,2 @@
+x: INTEGER
+s: STRING

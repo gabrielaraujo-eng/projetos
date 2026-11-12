@@ -1,0 +1,1 @@
+$ WRITE SYS$OUTPUT "Olá Mundo"

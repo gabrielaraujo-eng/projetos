@@ -1,0 +1,1 @@
+atomicAdd(ptr, val);

@@ -1,0 +1,4 @@
+DEFFCT INT soma(a:IN, b:IN)
+  DECL INT a, b
+  RETURN a + b
+ENDFCT

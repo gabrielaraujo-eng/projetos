@@ -1,0 +1,4 @@
+spec:
+  selector:
+    matchLabels:
+      app: web

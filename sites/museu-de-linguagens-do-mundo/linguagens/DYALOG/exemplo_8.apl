@@ -1,0 +1,1 @@
+819⌶ 'dyalog'  ⍝ Converte para maiúsculo

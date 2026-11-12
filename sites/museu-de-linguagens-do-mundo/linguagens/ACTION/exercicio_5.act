@@ -1,0 +1,1 @@
+FUNC Square(INT n) RETURN (n*n)

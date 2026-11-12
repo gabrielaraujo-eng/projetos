@@ -1,0 +1,1 @@
+COMMENT Tratamento de erros em Algol 60 era limitado;

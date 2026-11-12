@@ -1,0 +1,5 @@
+If nVar > 5
+  Alert("Maior")
+Else
+  Alert("Menor")
+EndIf

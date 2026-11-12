@@ -1,0 +1,5 @@
+if ($x > 0)
+  message("Positivo")
+else
+  message("Negativo")
+end if

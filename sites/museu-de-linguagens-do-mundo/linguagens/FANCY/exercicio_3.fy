@@ -1,0 +1,1 @@
+n even? if_true: { "Par" println }

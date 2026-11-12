@@ -1,0 +1,1 @@
+echo %sh{ echo "kakoune" | rev }

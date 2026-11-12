@@ -1,0 +1,1 @@
+.nome + " tem " + (.idade|tostring) + " anos"

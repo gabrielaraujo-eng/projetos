@@ -1,0 +1,1 @@
+static int Square(int n) => n * n;

@@ -1,0 +1,1 @@
+RUN if [ -f "file" ]; then echo "exists"; fi

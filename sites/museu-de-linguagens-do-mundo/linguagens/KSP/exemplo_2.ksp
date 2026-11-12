@@ -1,0 +1,5 @@
+on init
+  declare $idade := 25
+  declare @nome := "KSP"
+  message(@nome & " tem " & $idade & " anos")
+end on

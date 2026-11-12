@@ -1,0 +1,1 @@
+/* Erros são reportados pelo banco de dados */

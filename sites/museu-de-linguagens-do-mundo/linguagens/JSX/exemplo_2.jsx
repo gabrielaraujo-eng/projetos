@@ -1,0 +1,1 @@
+const Perfil = ({nome, idade}) => <p>{nome} tem {idade} anos</p>;

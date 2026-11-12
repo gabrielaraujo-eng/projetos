@@ -1,0 +1,1 @@
+ifelse x > 10 [ print "Maior" ] [ print "Menor" ]

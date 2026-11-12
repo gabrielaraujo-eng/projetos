@@ -1,0 +1,3 @@
+<If "-z %{QUERY_STRING}">
+  # Condição
+</If>

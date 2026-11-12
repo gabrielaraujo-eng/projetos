@@ -1,0 +1,1 @@
+(defparameter f 3.14)

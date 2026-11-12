@@ -1,0 +1,3 @@
+PROC Add(BYTE a, b)
+  PrintBE(a + b)
+RETURN

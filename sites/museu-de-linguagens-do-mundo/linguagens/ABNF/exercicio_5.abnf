@@ -1,0 +1,2 @@
+; Regra recursiva
+list = element / (element "," list)

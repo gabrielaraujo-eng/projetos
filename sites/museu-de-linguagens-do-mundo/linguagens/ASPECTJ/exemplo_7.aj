@@ -1,0 +1,1 @@
+after() throwing (Exception e) : call(* *(..)) { }

@@ -1,0 +1,1 @@
+Parameter mult(a, b); mult = a * b;

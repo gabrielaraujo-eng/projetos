@@ -1,0 +1,1 @@
+IF [[#1 MOD 2] EQ 0] GOTO 10

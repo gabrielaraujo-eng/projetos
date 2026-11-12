@@ -1,0 +1,1 @@
+declare parents : MyClass implements Serializable;

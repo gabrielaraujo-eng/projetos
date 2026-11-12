@@ -1,0 +1,4 @@
+% LOGTALK - Controle de Fluxo - Estruturas condicionais (se/então).
+main :-
+    write('Controle de Fluxo - Estruturas condicionais (se/então).'), nl.
+    halt.

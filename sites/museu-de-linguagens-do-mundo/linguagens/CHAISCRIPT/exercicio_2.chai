@@ -1,0 +1,5 @@
+var a = 15;
+var b = 7;
+
+print("Soma: " + (a + b));
+print("Subtração: " + (a - b));

@@ -1,0 +1,1 @@
+X @ 10 > IF ." Maior" ELSE ." Menor" THEN
